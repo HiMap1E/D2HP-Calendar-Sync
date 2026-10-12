@@ -1,0 +1,3118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Yuhao He//D2HP Calendar Sync 2.3//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME;LANGUAGE=en:Paris-Saclay M1 D²HP S1 2026–2027
+X-WR-CALNAME:Paris-Saclay M1 D²HP S1 2026–2027
+DESCRIPTION;LANGUAGE=en:Paris-Saclay D²HP Calendar Sync\nVersion 2.3\nDeve
+ loped by Yuhao He\n\nCOPYRIGHT\n© 2026 Yuhao He. Calendar integration sof
+ tware and original supplementary content developed by Yuhao He.\n\nSOURCE 
+ ATTRIBUTION\nOriginal academic scheduling information is provided by Unive
+ rsité Paris-Saclay. Rights in third-party materials remain with their res
+ pective owners.\n\nDISCLAIMER\nThis is an independent\, student-developed 
+ calendar subscription service and is not affiliated with\, endorsed by\, o
+ r officially maintained by Université Paris-Saclay. Calendar information 
+ is sourced from the university's shared timetable and may be incomplete\, 
+ inaccurate\, or subject to change without notice. Users should always veri
+ fy important dates\, examination schedules\, and locations against officia
+ l university communications. The developer accepts no responsibility for a
+ ny inconvenience or loss arising from reliance on this service\, to the ex
+ tent permitted by applicable law.\n\nUSAGE NOTICE\nThis calendar is provid
+ ed free of charge for personal academic use by students. It is offered on 
+ an "as is" basis\, without any guarantee of availability\, accuracy\, comp
+ leteness\, or update frequency. Redistribution of the subscription URL is 
+ permitted\, provided that the service is not misrepresented as an official
+  university resource. This permission does not grant rights to redistribut
+ e third-party materials beyond those separately authorised.
+X-WR-CALDESC:Paris-Saclay D²HP Calendar Sync\nVersion 2.3\nDeveloped by Yu
+ hao He\n\nCOPYRIGHT\n© 2026 Yuhao He. Calendar integration software and o
+ riginal supplementary content developed by Yuhao He.\n\nSOURCE ATTRIBUTION
+ \nOriginal academic scheduling information is provided by Université Pari
+ s-Saclay. Rights in third-party materials remain with their respective own
+ ers.\n\nDISCLAIMER\nThis is an independent\, student-developed calendar su
+ bscription service and is not affiliated with\, endorsed by\, or officiall
+ y maintained by Université Paris-Saclay. Calendar information is sourced 
+ from the university's shared timetable and may be incomplete\, inaccurate\
+ , or subject to change without notice. Users should always verify importan
+ t dates\, examination schedules\, and locations against official universit
+ y communications. The developer accepts no responsibility for any inconven
+ ience or loss arising from reliance on this service\, to the extent permit
+ ted by applicable law.\n\nUSAGE NOTICE\nThis calendar is provided free of 
+ charge for personal academic use by students. It is offered on an "as is" 
+ basis\, without any guarantee of availability\, accuracy\, completeness\, 
+ or update frequency. Redistribution of the subscription URL is permitted\,
+  provided that the service is not misrepresented as an official university
+  resource. This permission does not grant rights to redistribute third-par
+ ty materials beyond those separately authorised.
+X-D2HP-PROJECT:Paris-Saclay D²HP Calendar Sync
+X-D2HP-DEVELOPER:Yuhao He
+X-D2HP-COPYRIGHT:© 2026 Yuhao He. Calendar integration software and origin
+ al supplementary content developed by Yuhao He.
+X-D2HP-ATTRIBUTION:Original academic scheduling information is provided by 
+ Université Paris-Saclay. Rights in third-party materials remain with thei
+ r respective owners.
+X-D2HP-DISCLAIMER:This is an independent\, student-developed calendar subsc
+ ription service and is not affiliated with\, endorsed by\, or officially m
+ aintained by Université Paris-Saclay. Calendar information is sourced fro
+ m the university's shared timetable and may be incomplete\, inaccurate\, o
+ r subject to change without notice. Users should always verify important d
+ ates\, examination schedules\, and locations against official university c
+ ommunications. The developer accepts no responsibility for any inconvenien
+ ce or loss arising from reliance on this service\, to the extent permitted
+  by applicable law.
+X-D2HP-USAGE:This calendar is provided free of charge for personal academic
+  use by students. It is offered on an "as is" basis\, without any guarante
+ e of availability\, accuracy\, completeness\, or update frequency. Redistr
+ ibution of the subscription URL is permitted\, provided that the service i
+ s not misrepresented as an official university resource. This permission d
+ oes not grant rights to redistribute third-party materials beyond those se
+ parately authorised.
+X-D2HP-VERSION:2.3
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT5M
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-calendar-about-v1@cal
+ endar.local
+CREATED:20261012T085612Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:ℹ️ About This Calendar - Credits & Disclaimer
+DESCRIPTION:Paris-Saclay D²HP Calendar Sync\nVersion: 2.3\nDeveloped by: Y
+ uhao He\n\nCOPYRIGHT\n© 2026 Yuhao He. Calendar integration software and 
+ original supplementary content developed by Yuhao He.\n\nSOURCE ATTRIBUTIO
+ N\nOriginal academic scheduling information is provided by Université Par
+ is-Saclay. Rights in third-party materials remain with their respective ow
+ ners.\n\nDISCLAIMER\nThis is an independent\, student-developed calendar s
+ ubscription service and is not affiliated with\, endorsed by\, or official
+ ly maintained by Université Paris-Saclay. Calendar information is sourced
+  from the university's shared timetable and may be incomplete\, inaccurate
+ \, or subject to change without notice. Users should always verify importa
+ nt dates\, examination schedules\, and locations against official universi
+ ty communications. The developer accepts no responsibility for any inconve
+ nience or loss arising from reliance on this service\, to the extent permi
+ tted by applicable law.\n\nUSAGE NOTICE\nThis calendar is provided free of
+  charge for personal academic use by students. It is offered on an "as is"
+  basis\, without any guarantee of availability\, accuracy\, completeness\,
+  or update frequency. Redistribution of the subscription URL is permitted\
+ , provided that the service is not misrepresented as an official universit
+ y resource. This permission does not grant rights to redistribute third-pa
+ rty materials beyond those separately authorised.
+CATEGORIES:Information
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-5@cale
+ ndar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20260921T143000
+DTEND;TZID=Europe/Paris:20260921T153000
+SUMMARY:Welcoming Session
+DESCRIPTION:Module: Welcoming Session\nRoom: 1402 a\nValidation: validated\
+ nEnd time missing in source\; 60-minute duration is an estimate.
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:1402 a
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-12@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20260923T093000
+DTEND;TZID=Europe/Paris:20260923T123000
+SUMMARY:TU 06 - Lecture 1: Introduction + Drug life cycle
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 1
+ : Introduction + Drug life cycle\nLecturer: Jean-Philippe MICHEL\nBuilding
+ : HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-14@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20260923T140000
+DTEND;TZID=Europe/Paris:20260923T160000
+SUMMARY:TU 08 - Introduction to biotechnology
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Introduction to biotec
+ hnology\nLecturer: François FAY\nBuilding: HM4\nRoom: 1402a/b\nValidation
+ : validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-16@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20260924T100000
+DTEND;TZID=Europe/Paris:20260924T120000
+SUMMARY:TU 08 - Proteins 1
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Proteins 1\nLecturer: 
+ Isabelle Turbica\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-18@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20260924T140000
+DTEND;TZID=Europe/Paris:20260924T163000
+SUMMARY:TU 08 - Molecular tools in biotechnologies - an overview
+DESCRIPTION:Module: TU 08: Biotechnology\nSession: Molecular tools in biote
+ chnologies - an overview\nLecturer: F. GESBERT\nBuilding: HM4\nRoom: 1402a
+ /b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-21@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20260925T100000
+DTEND;TZID=Europe/Paris:20260925T113000
+SUMMARY:TU 03 - Bases of cardiac physiology
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Bases of cardiac physiology\nLecturer: Vlad
+ imir Veksler\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-27@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20260928T090000
+DTEND;TZID=Europe/Paris:20260928T180000
+SUMMARY:TU 00: Immersive cultural and scientific exchanges
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nVal
+ idation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-31@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20260929T090000
+DTEND;TZID=Europe/Paris:20260929T180000
+SUMMARY:TU 00: Immersive cultural and scientific exchanges
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nVal
+ idation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-35@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20260930T090000
+DTEND;TZID=Europe/Paris:20260930T180000
+SUMMARY:TU 00: Immersive cultural and scientific exchanges
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nVal
+ idation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-39@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261001T090000
+DTEND;TZID=Europe/Paris:20261001T180000
+SUMMARY:TU 00: Immersive cultural and scientific exchanges
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nVal
+ idation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-43@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261002T090000
+DTEND;TZID=Europe/Paris:20261002T180000
+SUMMARY:TU 00: Immersive cultural and scientific exchanges
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nVal
+ idation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-48@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261005T091500
+DTEND;TZID=Europe/Paris:20261005T121500
+SUMMARY:TU 08 - Quality control of recombinant therapeutic proteins
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Quality control of rec
+ ombinant therapeutic proteins\nLecturer: M. TAVERNA & C. SMADJA\nBuilding:
+  HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-49@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261005T140000
+DTEND;TZID=Europe/Paris:20261005T153000
+SUMMARY:TU 03 - Novel therapeutic strategies for diabetes treatment
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Novel therapeutic strategies for diabetes t
+ reatment\nLecturer: Miguel BARAJAS\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-52@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261006T093000
+DTEND;TZID=Europe/Paris:20261006T123000
+SUMMARY:TU 06 - Lecture 2: Biopharmacy and formulation strategies I
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 2
+ : Biopharmacy and formulation strategies I\nLecturer: Jean-Philippe MICHEL
+ \nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-54@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261006T140000
+DTEND;TZID=Europe/Paris:20261006T153000
+SUMMARY:TU 05 - Lecture 1 : Introduction - how a cell becomes cancerous
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 1 : Introd
+ uction - how a cell becomes cancerous\nLecturer: Anita BAILLET\nBuilding: 
+ HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-55@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261006T154500
+DTEND;TZID=Europe/Paris:20261006T171500
+SUMMARY:TU 05 - Lecture 2 : Epigenetic reprogramming
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 2 : Epigen
+ etic reprogramming\nLecturer: Anita BAILLET\nBuilding: HM4\nRoom: 1402a/b\
+ nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-56@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261007T091500
+DTEND;TZID=Europe/Paris:20261007T121500
+SUMMARY:TU 08 - Oligonucleotides
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Oligonucleotides\nLect
+ urer: F. FAY\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-65@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261009T100000
+DTEND;TZID=Europe/Paris:20261009T120000
+SUMMARY:TU 08 - Vaccines _ Online class
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Vaccines _ Online clas
+ s\nLecturer: I. TURBICA\nValidation: validated\nDelivery: Online
+CATEGORIES:Online class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-66@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261009T133000
+DTEND;TZID=Europe/Paris:20261009T163000
+SUMMARY:TU 06 - Lecture 3: Biopharmacy and formulation strategies II _ Onli
+ ne class
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 3
+ : Biopharmacy and formulation strategies II _ Online class\nLecturer: Jean
+ -Philippe Michel\nValidation: validated\nDelivery: Online
+CATEGORIES:Online class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-70@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261012T090000
+DTEND;TZID=Europe/Paris:20261012T103000
+SUMMARY:TU 05 - Lecture 3 : Cancer targets and biomarkers\, personnal thera
+ py\, resistance
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 3 : Cancer
+  targets and biomarkers\, personnal therapy\, resistance\nLecturer: Christ
+ ian POÜS\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-71@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261012T104500
+DTEND;TZID=Europe/Paris:20261012T121500
+SUMMARY:TU 05 - Lecture 4 : Tumor heterogeneity\, microenvironment\, antitu
+ mor immunity
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 4 : Tumor 
+ heterogeneity\, microenvironment\, antitumor immunity\nLecturer: Christian
+  POÜS\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-74@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261013T093000
+DTEND;TZID=Europe/Paris:20261013T110000
+SUMMARY:TU 04 - Innate Immunity
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Innate Imm
+ unity\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: HM4\nRoom: 1402a/b\nVali
+ dation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-75@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261013T111500
+DTEND;TZID=Europe/Paris:20261013T123000
+SUMMARY:Seminar - From scientific adiea to a high quality animal research p
+ roject / Smart surface modifications strategies of nanoparticles for targe
+ ted drug delivery
+DESCRIPTION:Module: Seminar\nSession: From scientific adiea to a high quali
+ ty animal research project / Smart surface modifications strategies of nan
+ oparticles for targeted drug delivery\nLecturer: Guest speakers Prof. Amir
+ a ABO YOUSSEF / Prof. Shahira Fawzy\nBuilding: HM4\nRoom: 1402a/b\nValidat
+ ion: validated
+CATEGORIES:Seminar
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-76@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261013T133000
+DTEND;TZID=Europe/Paris:20261013T163000
+SUMMARY:TU 06 - Lecture 4: Preformulation and solid forms I
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 4
+ : Preformulation and solid forms I\nLecturer: Jean-Philippe MICHEL\nBuildi
+ ng: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-78@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261014T093000
+DTEND;TZID=Europe/Paris:20261014T110000
+SUMMARY:TU 04 - Adaptive Immunity
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Adaptive I
+ mmunity\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: HM4\nRoom: 1402a/b\nVa
+ lidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-80@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261014T130000
+DTEND;TZID=Europe/Paris:20261014T160000
+SUMMARY:TU 00 - Updates Molecular Biology
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: Updates Molecular Biology\nLecturer: Dorine BONTE\nBuilding: HM4\nRo
+ om: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-81@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261014T161500
+DTEND;TZID=Europe/Paris:20261014T171500
+SUMMARY:ORU 02 - Introduction to internship
+DESCRIPTION:Module: ORU 02: Internship\nSession: Introduction to internship
+ \nLecturer: Dorine BONTE and Eric MOREL\nBuilding: HM4\nRoom: 1402a/b\nVal
+ idation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-82@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261015T093000
+DTEND;TZID=Europe/Paris:20261015T123000
+SUMMARY:TU 06 - Lecture 5: Formulation and solid forms I
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 5
+ : Formulation and solid forms I\nLecturer: Jean-Philippe MICHEL\nBuilding:
+  HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-86@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261016T090000
+DTEND;TZID=Europe/Paris:20261016T103000
+SUMMARY:TU 05 - Lecture 5 : Cytoskeleton
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 5 : Cytosk
+ eleton\nLecturer: Béatrice BENOIT\nBuilding: HM4\nRoom: 1402a/b\nValidati
+ on: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-87@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261016T104500
+DTEND;TZID=Europe/Paris:20261016T121500
+SUMMARY:TU 05 - Lecture 6 : Cell cycle\, quiescence senescence
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 6 : Cell c
+ ycle\, quiescence senescence\nLecturer: Béatrice BENOIT\nBuilding: HM4\nR
+ oom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-88@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261016T133000
+DTEND;TZID=Europe/Paris:20261016T153000
+SUMMARY:TU 08 - Plasma therapeutic proteins
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Plasma therapeutic pro
+ teins\nLecturer: D. BATAILLE\nBuilding: HM4\nRoom: 1402a/b\nValidation: va
+ lidated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-89@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261016T154500
+DTEND;TZID=Europe/Paris:20261016T174500
+SUMMARY:TU 00 - Updates Molecular Biology Tutorials
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: Updates Molecular Biology Tutorials\nLecturer: Dorine BONTE and Eric
+  MOREL\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-92@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261019T084500
+DTEND;TZID=Europe/Paris:20261019T101500
+SUMMARY:TU 04 - Physiopathology of auto-immune diseases
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Physiopath
+ ology of auto-immune diseases\nLecturer: Géraldine Schlecht-Louf\nBuildin
+ g: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-93@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261019T103000
+DTEND;TZID=Europe/Paris:20261019T123000
+SUMMARY:TU 08 - EV
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: EV\nLecturer: S. OBEID
+ \nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-95@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261019T140000
+DTEND;TZID=Europe/Paris:20261019T170000
+SUMMARY:TU 00 - Updates Virology
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: Updates Virology\nLecturer: Dorine BONTE\nBuilding: HM4\nRoom: 1402a
+ /b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-96@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261020T093000
+DTEND;TZID=Europe/Paris:20261020T123000
+SUMMARY:TU 06 - Lecture 6: Formulation and solid forms II
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 6
+ : Formulation and solid forms II\nLecturer: Jean-Philippe MICHEL\nBuilding
+ : HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-98@cal
+ endar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261020T140000
+DTEND;TZID=Europe/Paris:20261020T153000
+SUMMARY:TU 04 - Allogeneic immune response
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Allogeneic
+  immune response\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: HM4\nRoom: 14
+ 02a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-100@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261021T093000
+DTEND;TZID=Europe/Paris:20261021T113000
+SUMMARY:TU 04 - Leukemias
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Leukemias\
+ nLecturer: Marc VASSE\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-101@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261021T114500
+DTEND;TZID=Europe/Paris:20261021T124500
+SUMMARY:TU 08 - Cell therapy
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Cell therapy\nLecturer
+ : Nathalie CHAPUT\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-102@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261021T140000
+DTEND;TZID=Europe/Paris:20261021T150000
+SUMMARY:TU 04 - Lymphomes
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Lymphomes\
+ nLecturer: Marc VASSE\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-103@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261021T151500
+DTEND;TZID=Europe/Paris:20261021T164500
+SUMMARY:TU 04 - Immunology-based diagnosis methods
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Immunology
+ -based diagnosis methods\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: HM4\n
+ Room: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-104@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261022T093000
+DTEND;TZID=Europe/Paris:20261022T123000
+SUMMARY:TU 06 - Lecture 7: Formulation and solid forms III
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 7
+ : Formulation and solid forms III\nLecturer: Jean-Philippe MICHEL\nBuildin
+ g: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-106@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261022T140000
+DTEND;TZID=Europe/Paris:20261022T153000
+SUMMARY:TU 05 - Lecture 7 : Migration\, polarity\, EMT\, metastasis
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 7 : Migrat
+ ion\, polarity\, EMT\, metastasis\nLecturer: Béatrice BENOIT\nBuilding: H
+ M4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-107@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261022T154500
+DTEND;TZID=Europe/Paris:20261022T171500
+SUMMARY:TU 05 - Lecture 8 : Regulated cell deaths and cancer
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 8 : Regula
+ ted cell deaths and cancer\nLecturer: Béatrice BENOIT\nBuilding: HM4\nRoo
+ m: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-108@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261023T084500
+DTEND;TZID=Europe/Paris:20261023T101500
+SUMMARY:TU 04 - Physiopath/ diagnosis allergic diseases
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Physiopath
+ / diagnosis allergic diseases\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: 
+ HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-110@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261023T140000
+DTEND;TZID=Europe/Paris:20261023T153000
+SUMMARY:TU 05 - Lecture 9 : Metabolic reprogramming and angiosenesis in can
+ cer
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 9 : Metabo
+ lic reprogramming and angiosenesis in cancer\nLecturer: Christian POÜS\nB
+ uilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-114@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261026T093000
+DTEND;TZID=Europe/Paris:20261026T123000
+SUMMARY:OTU 05 - Lecture
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Lecture\nL
+ ecturer: Jean-Philippe MICHEL\nBuilding: HM1\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM1 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM1 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-116@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261026T140000
+DTEND;TZID=Europe/Paris:20261026T153000
+SUMMARY:TU 05 - Tutorial 1
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Tutorial 1\nLectur
+ er: Béatrice BENOIT\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-117@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261026T160000
+DTEND;TZID=Europe/Paris:20261026T180000
+SUMMARY:TU 08 - Biobetters: Innovating beyond the biologic original
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Biobetters: Innovating
+  beyond the biologic original\nLecturer: Myriam Taverna\nBuilding: HM4\nRo
+ om: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-118@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261027T093000
+DTEND;TZID=Europe/Paris:20261027T123000
+SUMMARY:OTU 05 - Preparation to Practical Works
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Preparatio
+ n to Practical Works\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom:
+  4208 a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-120@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261027T140000
+DTEND;TZID=Europe/Paris:20261027T173000
+SUMMARY:TU 05 - Tutorial 2
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Tutorial 2\nLectur
+ er: Anita BAILLET / Béatrice BENOIT\nBuilding: HM4\nRoom: 1402a/b\nValida
+ tion: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-122@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261028T084500
+DTEND;TZID=Europe/Paris:20261028T101500
+SUMMARY:TU 04 - Diagnosis of auto-immune diseases
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Diagnosis 
+ of auto-immune diseases\nLecturer: Mathilde PUEL\nBuilding: HM4\nRoom: 140
+ 2a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-123@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261028T103000
+DTEND;TZID=Europe/Paris:20261028T120000
+SUMMARY:TU 04 - Primary immunodeficiencies
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Primary im
+ munodeficiencies\nLecturer: Mathilde PUEL\nBuilding: HM4\nRoom: 1402a/b\nV
+ alidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-126@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261029T090000
+DTEND;TZID=Europe/Paris:20261029T110000
+SUMMARY:TU 04 - Hemostasis: physiology
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Hemostasis
+ : physiology\nLecturer: Elsa BIANCHINI\nBuilding: HM4\nRoom: 1402a/b\nVali
+ dation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-127@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261029T111500
+DTEND;TZID=Europe/Paris:20261029T124500
+SUMMARY:TU 04 - Hemophilia disease and treatments
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Hemophilia
+  disease and treatments\nLecturer: Elsa BIANCHINI\nBuilding: HM4\nRoom: 14
+ 02a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-128@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261029T140000
+DTEND;TZID=Europe/Paris:20261029T163000
+SUMMARY:TU 08 - Quality control 2
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Quality control 2\nLec
+ turer: M. TAVERNA\, C. SMADJA\nBuilding: HM4\nRoom: 1402a/b\nValidation: v
+ alidated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-130@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261030T090000
+DTEND;TZID=Europe/Paris:20261030T110000
+SUMMARY:TU 04 - Exploration of hemostasis-Routine diagnostic tests
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Exploratio
+ n of hemostasis-Routine diagnostic tests\nLecturer: Elsa BIANCHINI\nBuildi
+ ng: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-131@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261030T111500
+DTEND;TZID=Europe/Paris:20261030T124500
+SUMMARY:TU 04 - Thromboembolic disease and treatments
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Thromboemb
+ olic disease and treatments\nLecturer: Elsa BIANCHINI\nBuilding: HM4\nRoom
+ : 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-132@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261030T140000
+DTEND;TZID=Europe/Paris:20261030T160000
+SUMMARY:TU 04 - Anemia\, example of sickle cell disease
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Anemia\, e
+ xample of sickle cell disease\nLecturer: Claire AUDITEAU\nBuilding: HM4\nR
+ oom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-137@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261102T100000
+DTEND;TZID=Europe/Paris:20261102T120000
+SUMMARY:TU 03 - Cardiac electrophysiology
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Cardiac electrophysiology\nLecturer: Romain
+  PERRIER\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-139@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261102T130000
+DTEND;TZID=Europe/Paris:20261102T170000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-140@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261103T100000
+DTEND;TZID=Europe/Paris:20261103T120000
+SUMMARY:TU 08 - Gene therapy non viral vectors
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Gene therapy non viral
+  vectors\nLecturer: Francois Fay\nBuilding: HM4\nRoom: 1402a/b\nValidation
+ : validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-142@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261103T140000
+DTEND;TZID=Europe/Paris:20261103T173000
+SUMMARY:TU 05 - Tutorial 3
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Tutorial 3\nLectur
+ er: Anita BAILLET / Béatrice BENOIT\nBuilding: HM4\nRoom: 1402a/b\nValida
+ tion: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-144@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261104T093000
+DTEND;TZID=Europe/Paris:20261104T120000
+SUMMARY:TU 08 - Case study
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Case study\nLecturer: 
+ M. TAVERNA\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-145@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261104T140000
+DTEND;TZID=Europe/Paris:20261104T160000
+SUMMARY:TU 03 - Immunology of major organs to identify targets for immunoth
+ erapy
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Immunology of major organs to identify targ
+ ets for immunotherapy\nLecturer: Virginie TARDIF\nBuilding: HM4\nRoom: 140
+ 2a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-146@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261104T161500
+DTEND;TZID=Europe/Paris:20261104T174500
+SUMMARY:TU 08 - Viral vectors
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Viral vectors\nLecture
+ r: Dorine BONTE\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-148@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261105T093000
+DTEND;TZID=Europe/Paris:20261105T123000
+SUMMARY:TU 06 - Lecture 8: Preformulation of liquid forms
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 8
+ : Preformulation of liquid forms\nLecturer: Jean-Philippe MICHEL\nBuilding
+ : HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-150@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261105T140000
+DTEND;TZID=Europe/Paris:20261105T170000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-152@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261106T090000
+DTEND;TZID=Europe/Paris:20261106T130000
+SUMMARY:TU 01 - Biotech challenge
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Biotech challenge\nLecturer: Eric MOREL\nBuilding: HM4\nRoom: 1402
+ a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-154@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261106T140000
+DTEND;TZID=Europe/Paris:20261106T160000
+SUMMARY:TU 01 - Methodology I
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Methodology I\nLecturer: Dorine BONTE and Eric MOREL\nBuilding: HM
+ 4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-159@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261109T110000
+DTEND;TZID=Europe/Paris:20261109T123000
+SUMMARY:TU 09 - B: UV-visible spectroscopy
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: B: UV-visible spec
+ troscopy\nLecturer: A. KASSELOURI\nBuilding: HM4\nRoom: 1402a/b\nValidatio
+ n: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-160@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261109T140000
+DTEND;TZID=Europe/Paris:20261109T153000
+SUMMARY:TU 09 - B: Tutorial 3\, IR
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: B: Tutorial 3\, IR
+ \nLecturer: S. TFAILI\, A. TFAYLI\nBuilding: HM4\nRoom: 1402a/b\nValidatio
+ n: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-161@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261109T154500
+DTEND;TZID=Europe/Paris:20261109T171500
+SUMMARY:TU 09 - B: Tutorial 3\, IR
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: B: Tutorial 3\, IR
+ \nLecturer: S. TFAILI\, A. TFAYLI\nBuilding: HM4\nRoom: 1402a/b\nValidatio
+ n: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-162@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261110T091500
+DTEND;TZID=Europe/Paris:20261110T104500
+SUMMARY:TU 09 - C: Thermal analysis
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: C: Thermal analysi
+ s\nLecturer: C. AYMES-CHODUR\nBuilding: HM4\nRoom: 1402a/b\nValidation: va
+ lidated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-163@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261110T110000
+DTEND;TZID=Europe/Paris:20261110T123000
+SUMMARY:TU 09 - C: Thermal analysis
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: C: Thermal analysi
+ s\nLecturer: C. AYMES-CHODUR\nBuilding: HM4\nRoom: 1402a/b\nValidation: va
+ lidated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-164@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261110T140000
+DTEND;TZID=Europe/Paris:20261110T153000
+SUMMARY:TU 09 - B: Mass spectrometry
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: B: Mass spectromet
+ ry\nLecturer: A. SOLGADI\nBuilding: HM4\nRoom: 1402a/b\nValidation: valida
+ ted
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-holiday-20261111-fLA_
+ Y4jYwYjy@calendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Armistice Day
+DESCRIPTION:Public holiday
+CATEGORIES:Holiday
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-170@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261112T093000
+DTEND;TZID=Europe/Paris:20261112T123000
+SUMMARY:TU 06 - Lecture 9: Formulation of liquid forms
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 9
+ : Formulation of liquid forms\nLecturer: Jean-Philippe MICHEL\nBuilding: H
+ M4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-171@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261112T140000
+DTEND;TZID=Europe/Paris:20261112T153000
+SUMMARY:TU 09 - A: Introduction to chromatography
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Introduction to
+  chromatography\nLecturer: A. KASSELOURI\nBuilding: HM4\nRoom: 1402a/b\nVa
+ lidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-172@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261112T154500
+DTEND;TZID=Europe/Paris:20261112T164500
+SUMMARY:TU 09 - A: Liquid chromatography (NP\, RP\, HILIC)
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Liquid chromato
+ graphy (NP\, RP\, HILIC)\nLecturer: P. CHAMINADE\nBuilding: HM4\nRoom: 140
+ 2a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-174@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261113T091500
+DTEND;TZID=Europe/Paris:20261113T104500
+SUMMARY:TU 09 - A: Gas chromatography
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Gas chromatogra
+ phy\nLecturer: A.G. ISMAÏL\nBuilding: HM4\nRoom: 1402a/b\nValidation: val
+ idated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-175@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261113T110000
+DTEND;TZID=Europe/Paris:20261113T120000
+SUMMARY:TU 09 - B: NMR
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: B: NMR\nLecturer: 
+ C. AROULANDA\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-176@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261113T140000
+DTEND;TZID=Europe/Paris:20261113T153000
+SUMMARY:TU 09 - A: Drug  analysis (Analysis of chiral substances)
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Drug  analysis 
+ (Analysis of chiral substances)\nLecturer: T. TRAN\nBuilding: HM4\nRoom: 1
+ 402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-177@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261113T154500
+DTEND;TZID=Europe/Paris:20261113T164500
+SUMMARY:TU 09 - A: Tutorial 4: Electrophoresis exercices
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Tutorial 4: Ele
+ ctrophoresis exercices\nLecturer: T. TRAN\nBuilding: HM4\nRoom: 1402a/b\nV
+ alidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-180@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261116T091500
+DTEND;TZID=Europe/Paris:20261116T104500
+SUMMARY:TU 09 - A: Electrophoresis
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Electrophoresis
+ \nLecturer: T. DUC MAÏ\nBuilding: HM4\nRoom: 1402a/b\nValidation: validat
+ ed
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-181@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261116T110000
+DTEND;TZID=Europe/Paris:20261116T120000
+SUMMARY:TU 09 - A: Electrophoresis
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Electrophoresis
+ \nLecturer: T. DUC MAÏ\nBuilding: HM4\nRoom: 1402a/b\nValidation: validat
+ ed
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-182@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261116T140000
+DTEND;TZID=Europe/Paris:20261116T150000
+SUMMARY:TU 09 - A: Tutorial1: HPLC exercices
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Tutorial1: HPLC
+  exercices\nLecturer: A. KASSELOURI\nBuilding: HM4\nRoom: 1402a/b\nValidat
+ ion: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-183@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261116T151500
+DTEND;TZID=Europe/Paris:20261116T164500
+SUMMARY:TU 09 - A: Drug analysis (small molecules\, lipids)
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Drug analysis (
+ small molecules\, lipids)\nLecturer: A.G. ISMAÏL\nBuilding: HM4\nRoom: 14
+ 02a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-184@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261117T093000
+DTEND;TZID=Europe/Paris:20261117T123000
+SUMMARY:TU 06 - Case study 1: Articles reading and strategy
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
+ y 1: Articles reading and strategy\nLecturer: Jean-Philippe MICHEL\nBuildi
+ ng: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-186@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261117T140000
+DTEND;TZID=Europe/Paris:20261117T173000
+SUMMARY:TU 09 - A: Tutorial 2: HPLC simulation
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Tutorial 2: HPL
+ C simulation\nLecturer: A. KASSELOURI\, S. TFAILI\nBuilding: HM4\nRoom: 14
+ 02a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-188@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261118T093000
+DTEND;TZID=Europe/Paris:20261118T123000
+SUMMARY:TU 06 - Case study 2: Preformulation
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
+ y 2: Preformulation\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 
+ 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-190@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261118T140000
+DTEND;TZID=Europe/Paris:20261118T170000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-192@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261119T100000
+DTEND;TZID=Europe/Paris:20261119T113000
+SUMMARY:TU 03 - Impact of glucocorticoids on metabolic disorders and aging
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Impact of glucocorticoids on metabolic diso
+ rders and aging\nLecturer: Carine BEAUPERE\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-194@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261119T140000
+DTEND;TZID=Europe/Paris:20261119T153000
+SUMMARY:TU 05 - Written exam
+DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Written exam\nLect
+ urer: Anita BAILLET\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-196@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261120T093000
+DTEND;TZID=Europe/Paris:20261120T123000
+SUMMARY:TU 06 - Case study 3: Formulation
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
+ y 3: Formulation\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 140
+ 2a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-198@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261120T140000
+DTEND;TZID=Europe/Paris:20261120T160000
+SUMMARY:OTU 03 - Introduction
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Introduction\nLecturer: 
+ Kévin André\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-202@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261123T090000
+DTEND;TZID=Europe/Paris:20261123T180000
+SUMMARY:TU 01 - Kick-off session Rush Pharmaceutical Business Game
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Kick-off session Rush Pharmaceutical Business Game\nLecturer: Maxi
+ me BLANC\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-206@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261124T090000
+DTEND;TZID=Europe/Paris:20261124T180000
+SUMMARY:TU 01 - Rush Pharmaceutical Business Game
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Rush Pharmaceutical Business Game\nLecturer: Maxime BLANC\nValidat
+ ion: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-210@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261125T090000
+DTEND;TZID=Europe/Paris:20261125T180000
+SUMMARY:TU 01 - Rush Pharmaceutical Business Game
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Rush Pharmaceutical Business Game\nLecturer: Maxime BLANC\nValidat
+ ion: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-214@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261126T090000
+DTEND;TZID=Europe/Paris:20261126T180000
+SUMMARY:TU 01 - Rush Pharmaceutical Business Game
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Rush Pharmaceutical Business Game\nLecturer: Maxime BLANC\nValidat
+ ion: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-218@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261127T090000
+DTEND;TZID=Europe/Paris:20261127T110000
+SUMMARY:TU 01 - Methodology II
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Methodology II\nLecturer: Dorine BONTE and Eric MOREL\nBuilding: H
+ M4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-220@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261127T130000
+DTEND;TZID=Europe/Paris:20261127T170000
+SUMMARY:TU 01 - Biotech Challenge
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Biotech Challenge\nLecturer: Eric MOREL\nBuilding: HM4\nRoom: 1402
+ a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-224@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261130T093000
+DTEND;TZID=Europe/Paris:20261130T123000
+SUMMARY:TU 06 - Case study 4: Controls and report writing
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
+ y 4: Controls and report writing\nLecturer: Jean-Philippe MICHEL\nBuilding
+ : HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-226@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261130T133000
+DTEND;TZID=Europe/Paris:20261130T173000
+SUMMARY:TU 01 - Biotech Challenge
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: Biotech Challenge\nLecturer: Eric MOREL\nBuilding: HM4\nRoom: 1402
+ a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-229@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261201T090000
+DTEND;TZID=Europe/Paris:20261201T120000
+SUMMARY:OTU 03 - Practical work
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Practical work\nLecturer
+ : Kévin André\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-230@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261201T140000
+DTEND;TZID=Europe/Paris:20261201T170000
+SUMMARY:OTU 03 - Practical work
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Practical work\nLecturer
+ : Kévin André\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-233@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261202T090000
+DTEND;TZID=Europe/Paris:20261202T120000
+SUMMARY:OTU 03 - Practical work
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Practical work\nLecturer
+ : Kévin André\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-234@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261202T140000
+DTEND;TZID=Europe/Paris:20261202T150000
+SUMMARY:TU 03 - Introduction to cardiac pharmacology
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Introduction to cardiac pharmacology\nLectu
+ rer: Boris MANOURY\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-236@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261203T100000
+DTEND;TZID=Europe/Paris:20261203T113000
+SUMMARY:TU 03 - Cardiac Energy Metabolism
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Cardiac Energy Metabolism\nLecturer: Jerome
+  Piquereau\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-238@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261203T140000
+DTEND;TZID=Europe/Paris:20261203T170000
+SUMMARY:OTU 03 - Practical work
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Practical work\nLecturer
+ : Kévin André\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-240@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261204T090000
+DTEND;TZID=Europe/Paris:20261204T120000
+SUMMARY:OTU 03 - Practical work
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Practical work\nLecturer
+ : Kévin André\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-241@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261204T123000
+DTEND;TZID=Europe/Paris:20261204T133000
+SUMMARY:PhD track - Communication on PhD Track
+DESCRIPTION:Module: PhD track\nSession: Communication on PhD Track\nLecture
+ r: Sofia Cussotto\, and Ali Tfayli\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-242@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261204T140000
+DTEND;TZID=Europe/Paris:20261204T170000
+SUMMARY:OTU 03 - Practical work
+DESCRIPTION:Module: OTU 03: Gene cloning\nSession: Practical work\nLecturer
+ : Kévin André\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-246@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261207T093000
+DTEND;TZID=Europe/Paris:20261207T113000
+SUMMARY:TU 08 - EXAM
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: EXAM\nLecturer: F. FAY
+ \nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-248@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261207T133000
+DTEND;TZID=Europe/Paris:20261207T174500
+SUMMARY:OTU 05 - Practical Work Matrix group 1
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
+ Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
+ 4208 a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-250@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261208T090000
+DTEND;TZID=Europe/Paris:20261208T130000
+SUMMARY:TU 01 - EXAM Biotech Challenge
+DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
+ ession: EXAM Biotech Challenge\nLecturer: Eric MOREL\nBuilding: HM4\nRoom:
+  1402a/b\nValidation: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-252@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261208T140000
+DTEND;TZID=Europe/Paris:20261208T170000
+SUMMARY:TU 03 - Kidney Pathophysiology
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Kidney Pathophysiology\nLecturer: Catherine
+  VERGELY\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-254@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261209T090000
+DTEND;TZID=Europe/Paris:20261209T120000
+SUMMARY:TU 03 - Digestive Pathophysiology
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Digestive Pathophysiology\nLecturer: Cather
+ ine VERGELY\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-256@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261209T133000
+DTEND;TZID=Europe/Paris:20261209T174500
+SUMMARY:OTU 05 - Practical Work Matrix group 1
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
+ Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
+ 4208 a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-258@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261210T090000
+DTEND;TZID=Europe/Paris:20261210T120000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-260@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261210T130000
+DTEND;TZID=Europe/Paris:20261210T171500
+SUMMARY:OTU 05 - Practical Work Matrix group 1
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
+ Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
+ 4208 a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-262@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261211T090000
+DTEND;TZID=Europe/Paris:20261211T120000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-264@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261211T133000
+DTEND;TZID=Europe/Paris:20261211T174500
+SUMMARY:OTU 05 - Practical Work Matrix additional group
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
+ Work Matrix additional group\nLecturer: Jean-Philippe MICHEL\nBuilding: HM
+ 2\nRoom: 4208 a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-268@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20261214T093000
+DTEND;TZID=Europe/Paris:20261214T153000
+SUMMARY:TU 06 - Case study: Orals
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
+ y: Orals\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 1402a/b\nVa
+ lidation: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-274@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20261215T090000
+DTEND;TZID=Europe/Paris:20261215T120000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-272@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261215T140000
+DTEND;TZID=Europe/Paris:20261215T153000
+SUMMARY:TU 03 - Cardiac signaling and Cardio-Oncology
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Cardiac signaling and Cardio-Oncology\nLect
+ urer: Eric MOREL
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-314@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20270111T140000
+DTEND;TZID=Europe/Paris:20270111T150000
+SUMMARY:TU 04 - Final exam TU04  hematology
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Final exam
+  TU04  hematology\nLecturer: Elsa BIANCHINI\nValidation: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-315@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20270111T150000
+DTEND;TZID=Europe/Paris:20270111T170000
+SUMMARY:TU 04 - Final exam TU04 immunology
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Final exam
+  TU04 immunology\nLecturer: Viviana MARIN-ESTEBAN\nValidation: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-316@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20270112T100000
+DTEND;TZID=Europe/Paris:20270112T120000
+SUMMARY:TU 03 - TD
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: TD\nLecturer: Natalia ZAPATA-LINARES\nBuild
+ ing: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-325@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20270114T103000
+DTEND;TZID=Europe/Paris:20270114T123000
+SUMMARY:TU 06 - Written exam
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Written e
+ xam\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 1402a/b\nValidat
+ ion: validated
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-326@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20270114T140000
+DTEND;TZID=Europe/Paris:20270114T170000
+SUMMARY:TU 03 - Ventilatory mechanics and gas exchange
+DESCRIPTION:Module: TU 03: Physiopathology of major functions\nSession: Ven
+ tilatory mechanics and gas exchange\nLecturer: Antoine BEURNIER\nBuilding:
+  HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-328@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261012T085612Z
+LAST-MODIFIED:20261012T085612Z
+SEQUENCE:5
+DTSTART;TZID=Europe/Paris:20270115T093000
+DTEND;TZID=Europe/Paris:20270115T113000
+SUMMARY:TU 03 - Written exam
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Written exam\nLecturer: Natalia ZAPATA-LINA
+ RES\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+END:VCALENDAR
