@@ -498,14 +498,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-65@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:3
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Paris:20261009T100000
 DTEND;TZID=Europe/Paris:20261009T120000
 SUMMARY:TU 08 - Vaccines _ Online class
 DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Vaccines _ Online clas
- s\nLecturer: I. TURBICA\nValidation: validated\nDelivery: Online
+ s\nLecturer: I. TURBICA\nBuilding: Visio\nValidation: validated\nDelivery:
+  Online
 CATEGORIES:Online class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -517,16 +518,16 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-66@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:3
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:4
 DTSTART;TZID=Europe/Paris:20261009T133000
 DTEND;TZID=Europe/Paris:20261009T163000
 SUMMARY:TU 06 - Lecture 3: Biopharmacy and formulation strategies II _ Onli
  ne class
 DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 3
  : Biopharmacy and formulation strategies II _ Online class\nLecturer: Jean
- -Philippe Michel\nValidation: validated\nDelivery: Online
+ -Philippe Michel\nBuilding: Visio\nValidation: validated\nDelivery: Online
 CATEGORIES:Online class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -538,127 +539,106 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-70@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261012T090000
 DTEND;TZID=Europe/Paris:20261012T103000
 SUMMARY:TU 05 - Lecture 3 : Cancer targets and biomarkers\, personnal thera
  py\, resistance
 DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 3 : Cancer
   targets and biomarkers\, personnal therapy\, resistance\nLecturer: Christ
- ian POÜS\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+ ian POÜS\nBuilding: Visio\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:Visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-71@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261012T104500
 DTEND;TZID=Europe/Paris:20261012T121500
 SUMMARY:TU 05 - Lecture 4 : Tumor heterogeneity\, microenvironment\, antitu
  mor immunity
 DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 4 : Tumor 
  heterogeneity\, microenvironment\, antitumor immunity\nLecturer: Christian
-  POÜS\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+  POÜS\nBuilding: Visio\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:Visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-74@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261013T093000
 DTEND;TZID=Europe/Paris:20261013T110000
 SUMMARY:TU 04 - Innate Immunity
 DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Innate Imm
- unity\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: HM4\nRoom: 1402a/b\nVali
- dation: validated
+ unity\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: Visio\nValidation: valid
+ ated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:Visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-75@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:7
 DTSTART;TZID=Europe/Paris:20261013T111500
 DTEND;TZID=Europe/Paris:20261013T123000
-SUMMARY:Seminar - From scientific adiea to a high quality animal research p
- roject / Smart surface modifications strategies of nanoparticles for targe
- ted drug delivery
-DESCRIPTION:Module: Seminar\nSession: From scientific adiea to a high quali
- ty animal research project / Smart surface modifications strategies of nan
- oparticles for targeted drug delivery\nLecturer: Guest speakers Prof. Amir
- a ABO YOUSSEF / Prof. Shahira Fawzy\nBuilding: HM4\nRoom: 1402a/b\nValidat
- ion: validated
+SUMMARY:Seminar - From scientific idea to a high quality animal research pr
+ oject / Smart surface modifications strategies of nanoparticles for target
+ ed drug delivery
+DESCRIPTION:Module: Seminar\nSession: From scientific idea to a high qualit
+ y animal research project / Smart surface modifications strategies of nano
+ particles for targeted drug delivery\nLecturer: Guest speakers Prof. Amira
+  ABO YOUSSEF / Prof. Shahira Fawzy\nBuilding: Visio\nValidation: validated
 CATEGORIES:Seminar
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:Visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-76@cal
  endar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261013T133000
 DTEND;TZID=Europe/Paris:20261013T163000
 SUMMARY:TU 06 - Lecture 4: Preformulation and solid forms I
 DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 4
  : Preformulation and solid forms I\nLecturer: Jean-Philippe MICHEL\nBuildi
- ng: HM4\nRoom: 1402a/b\nValidation: validated
+ ng: Visio\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:Visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-78@cal
@@ -1352,6 +1332,28 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-124@ca
+ lendar.local
+CREATED:20261012T190900Z
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261028T140000
+DTEND;TZID=Europe/Paris:20261028T170000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-126@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -1520,23 +1522,6 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-139@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:2
-DTSTART;TZID=Europe/Paris:20261102T130000
-DTEND;TZID=Europe/Paris:20261102T170000
-SUMMARY:OTECI
-DESCRIPTION:Module: OTECI
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-END:VEVENT
-BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-140@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -1684,18 +1669,23 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-150@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:2
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:3
 DTSTART;TZID=Europe/Paris:20261105T140000
 DTEND;TZID=Europe/Paris:20261105T170000
 SUMMARY:OTECI
-DESCRIPTION:Module: OTECI
+DESCRIPTION:Module: OTECI\nBuilding: HM4\nRoom: 1402a/b
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-152@ca
@@ -2977,6 +2967,40 @@ SUMMARY:TU 03 - Cardiac signaling and Cardio-Oncology
 DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
  ne to drug discovery\nSession: Cardiac signaling and Cardio-Oncology\nLect
  urer: Eric MOREL
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-276@ca
+ lendar.local
+CREATED:20261012T190900Z
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261216T090000
+DTEND;TZID=Europe/Paris:20261216T120000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-278@ca
+ lendar.local
+CREATED:20261012T190900Z
+DTSTAMP:20261012T190900Z
+LAST-MODIFIED:20261012T190900Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261216T140000
+DTEND;TZID=Europe/Paris:20261216T170000
+SUMMARY:OTECI
+DESCRIPTION:Module: OTECI
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
