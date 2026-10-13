@@ -356,7 +356,181 @@ body.dialog-open{overflow:hidden}
 @media(max-width:1000px){.hero .line-ornament{left:-25px;top:350px;width:160px;height:220px}.hero .registration-mark{right:5%;top:700px;width:52px;height:52px}}
 @media(max-width:700px){.hero-sub{letter-spacing:.025em}.hero .line-ornament{left:-50px;top:350px;width:130px;height:170px;opacity:.1}.hero .registration-mark{right:20px;top:663px;width:28px;height:28px;opacity:.25}.hero .dot-patch{left:18px;top:706px;width:42px;height:27px;opacity:.12}.schedule .registration-mark{left:15px;top:20px;width:10px;height:10px}.schedule .corner-hatch{left:-15px;width:60px;height:50px;opacity:.65}.subscribe .line-ornament{width:230px;height:220px;left:-60px;opacity:.065}.subscribe .registration-mark{right:18px;bottom:20px;width:22px;height:22px}.about .line-ornament{right:-115px;width:275px;height:240px;opacity:.055}.about .dot-patch{display:none}.about .registration-mark{width:14px;height:14px;right:20px;bottom:20px}.footer .shell::after{display:none}}
 
-.header .masthead small{text-transform:none}
+
+.language-switch{border-top:1px solid #f4f5ef33;margin-top:22px;padding-top:18px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.language-label{font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.language-options{display:flex;gap:7px}.language-options button{border:1px solid #f4f5ef66;background:transparent;color:var(--white);border-radius:999px;padding:9px 14px;font-size:11px;font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90;letter-spacing:.06em;min-width:46px}
+.language-options button[aria-pressed="true"],.language-options button:hover{background:var(--lime);border-color:var(--lime);color:var(--olive)}
+html[lang="fr"] .menu-panel{width:360px}html[lang="fr"] .menu-panel a{font-size:30px}
+html[lang="fr"] .hero h1{font-size:clamp(28px,8.2vw,130px)}
+html[lang="fr"] .google-tutorial h2{font-size:clamp(32px,4.5vw,48px)}
+html[lang="fr"] .connect-heading h2{font-size:clamp(60px,8vw,125px)}
+@media(max-width:700px){html[lang="fr"] .menu-panel{width:calc(100% - 36px)}html[lang="fr"] .menu-panel a{font-size:clamp(23px,7vw,27px)}html[lang="fr"] .hero h1{font-size:8.9vw}html[lang="fr"] .connect-heading h2{font-size:14vw}html[lang="fr"] .masthead a{font-size:clamp(10px,3.2vw,14px)}}
+
+
+/* Minimal text-only language choices, retaining keyboard activation. */
+.language-switch{border:0;margin-top:18px;padding-top:0;justify-content:flex-start}
+.language-options{gap:17px;align-items:center}
+.language-options button{appearance:none;border:0;border-radius:0;background:none;color:var(--muted);padding:4px 0;min-width:0;font-size:12px;letter-spacing:.08em;line-height:1.3}
+.language-options button[aria-pressed="true"],.language-options button:hover{background:none;border:0;color:var(--lime)}
+
+
+.language-options button{font-size:16px;padding:5px 0}
+.language-switch{margin-top:22px}
+
+
+.principle{position:relative;isolation:isolate;overflow:hidden;background:var(--olive);color:var(--white);padding:65px 0 55px}
+.principle-heading{display:flex;justify-content:space-between;align-items:end;gap:50px;margin:22px 0 38px}
+.principle h2{font-family:var(--sans);font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90;font-size:clamp(48px,6.5vw,96px);line-height:.93;letter-spacing:.005em;margin:0}
+.principle h2 span{font-family:var(--serif);font-weight:700;font-variation-settings:normal;color:var(--lime);line-height:1}
+.principle-heading>p{font-size:14px;line-height:1.8;max-width:400px;margin:0;color:#d8dccf}
+.sync-flow{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid #f4f5ef35;border-radius:16px;overflow:hidden}
+.sync-flow li{padding:28px;position:relative;background:#f4f5ef03}
+.sync-flow li+li{border-left:1px solid #f4f5ef35}
+.flow-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;color:var(--lime)}
+.flow-number{font-size:11px;letter-spacing:.1em}.flow-top svg{width:37px;height:37px}
+.sync-flow h3{font-family:var(--sans);font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90;font-size:22px;letter-spacing:.01em;margin:0 0 14px}
+.sync-flow p{font-size:13px;line-height:1.8;color:#d8dccf;margin:0}
+.principle-note{font-size:11px;line-height:1.7;margin:23px 0 0;color:var(--muted)}
+@media(max-width:700px){.principle{padding:44px 0 38px}.principle-heading{display:block;margin-bottom:28px}.principle h2{font-size:15vw}.principle-heading>p{font-size:13px;margin-top:22px;max-width:none}.sync-flow{grid-template-columns:1fr}.sync-flow li{padding:23px}.sync-flow li+li{border-left:0;border-top:1px solid #f4f5ef35}.flow-top{margin-bottom:18px}.sync-flow h3{font-size:20px}}
+
+
+/* Dark workflow panel followed by a warm-white declaration. */
+.principle{background:var(--charcoal)}
+.principle h2{line-height:.85}.principle h2 span{line-height:.91}
+.flow-number{font-family:var(--sans);font-size:26px;font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90;letter-spacing:.045em;line-height:1}
+.about,.footer{background:var(--white);color:var(--olive)}
+.about .legal-details,.footer .shell{border-color:#282d223b}
+.about .about-top>a{border-color:var(--olive);color:var(--olive)}
+.about .line-ornament{color:var(--olive)}
+.about .registration-mark{color:var(--olive)}
+.about .dot-patch{background-image:radial-gradient(var(--olive) 1px,transparent 1px)}
+.about>.surface-texture{mix-blend-mode:multiply;opacity:.045}
+.footer::after{background-image:conic-gradient(var(--olive) 25%,var(--white) 0 50%,var(--olive) 0 75%,var(--white) 0)}
+.footer .shell::after{background:repeating-linear-gradient(90deg,var(--olive) 0 2px,transparent 2px 6px)}
+@media(max-width:700px){.flow-number{font-size:24px}}
+
+
+/* Near-black panel and an open, connected workflow inspired by trackside graphics. */
+:root{--charcoal:#10110f}
+.principle{background:var(--charcoal)}
+.sync-flow{position:relative;gap:40px;border:0;border-radius:0;overflow:visible;margin-top:52px}
+.sync-flow::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:#f4f5ef35;pointer-events:none}
+.sync-flow li{padding:36px 0 12px;background:none;border:0;isolation:isolate}
+.sync-flow li+li{border:0}
+.sync-flow li::before{content:'';position:absolute;left:0;top:-4px;width:8px;height:8px;background:var(--lime);box-shadow:0 0 0 5px var(--charcoal);transition:box-shadow .3s}
+.sync-flow li:not(:last-child)::after{content:'';position:absolute;right:-23px;top:-4px;width:7px;height:7px;border-top:1px solid var(--muted);border-right:1px solid var(--muted);transform:rotate(45deg)}
+.flow-top{margin-bottom:25px;align-items:center;gap:20px}
+.flow-number{font-size:clamp(62px,6.5vw,88px);font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90;line-height:1;letter-spacing:-.015em;color:var(--white);transition:color .35s,translate .35s}
+.flow-icon{position:relative;display:grid;place-items:center;width:66px;height:66px;flex:none;border:1px solid #d3ff0060;border-radius:50%;color:var(--lime);transition:transform .45s,border-color .35s}
+.flow-icon::after{content:'';position:absolute;inset:6px;border:1px dashed #d3ff0030;border-radius:50%;pointer-events:none}
+.flow-icon svg{width:32px;height:32px}
+.sync-flow h3{font-size:clamp(23px,2.2vw,30px);line-height:1.12;letter-spacing:.005em;margin:0 0 17px}
+.sync-flow p{font-size:13px;line-height:1.85;max-width:330px;color:#c8ccbf}
+.sync-flow li:hover .flow-number{color:var(--lime);translate:0 -3px}
+.sync-flow li:hover .flow-icon{transform:rotate(-8deg);border-color:var(--lime)}
+.sync-flow li:hover::before{box-shadow:0 0 0 5px var(--charcoal),0 0 0 6px #d3ff0060}
+.principle-note{border-top:1px solid #f4f5ef20;padding-top:20px;margin-top:32px}
+@media(max-width:1000px){.sync-flow{gap:28px}.sync-flow li:not(:last-child)::after{right:-17px}.flow-icon{width:56px;height:56px}.flow-icon svg{width:28px;height:28px}}
+@media(max-width:700px){.sync-flow{gap:0;margin-top:35px;padding-left:26px}.sync-flow::before{top:0;bottom:0;left:3px;right:auto;width:1px;height:auto;background:#f4f5ef35}.sync-flow li{padding:4px 0 32px}.sync-flow li+li{border:0;padding-top:28px}.sync-flow li::before{left:-26px;top:21px}.sync-flow li+li::before{top:45px}.sync-flow li:not(:last-child)::after{left:-26px;right:auto;top:auto;bottom:1px;transform:rotate(135deg);width:6px;height:6px}.flow-top{margin-bottom:20px}.flow-number{font-size:62px}.flow-icon{width:56px;height:56px}.sync-flow h3{font-size:24px}.sync-flow p{max-width:none}.sync-flow li:last-child{padding-bottom:6px}}
+@media(prefers-reduced-motion:reduce){.sync-flow li:hover .flow-number{translate:0 0}.sync-flow li:hover .flow-icon{transform:none}}
+
+
+/* A quieter workflow and the requested Adobe RGB heading accent. */
+:root{--heading-accent:color(a98-rgb 0.717 0.774 0.285)}
+.section-top h2 em,.principle h2 span{color:var(--heading-accent)}
+.sync-flow{gap:48px;margin-top:48px}
+.sync-flow::before{background:#f4f5ef24}
+.sync-flow li{padding-top:32px;padding-bottom:18px}
+.sync-flow li::before{top:-3px;width:6px;height:6px;border-radius:50%;background:var(--heading-accent);box-shadow:0 0 0 5px var(--charcoal)}
+.sync-flow li::after,.sync-flow li:not(:last-child)::after{content:'';position:absolute;top:0;bottom:auto;left:0;right:auto;width:100%;height:1px;border:0;background:var(--heading-accent);transform:scaleX(0);transform-origin:left;transition:transform .55s cubic-bezier(.2,.7,.2,1);pointer-events:none}
+.sync-flow li:hover::after{transform:scaleX(1)}
+.flow-top{align-items:center;margin-bottom:30px}
+.flow-number{font-size:clamp(48px,5vw,68px);letter-spacing:.015em;color:#e1e4db;transition:color .35s}
+.flow-icon{width:52px;height:52px;border-color:#f4f5ef24;color:var(--heading-accent);border-radius:14px;background:transparent;transition:background .35s,border-color .35s}
+.flow-icon::after{display:none}.flow-icon svg{width:27px;height:27px}
+.sync-flow h3{font-size:clamp(22px,2vw,27px);letter-spacing:.012em;line-height:1.2;margin-bottom:14px}
+.sync-flow p{font-size:13px;line-height:1.8;max-width:310px;color:#bfc4b5}
+.sync-flow li:hover .flow-number{color:var(--heading-accent);translate:0 0}
+.sync-flow li:hover .flow-icon{transform:none;border-color:var(--heading-accent);background:color-mix(in srgb,var(--heading-accent) 7%,transparent)}
+.sync-flow li:hover::before{box-shadow:0 0 0 5px var(--charcoal)}
+.principle-note{margin-top:27px;padding-top:21px;border-color:#f4f5ef1c}
+@media(max-width:1000px){.sync-flow{gap:30px}.flow-number{font-size:54px}}
+@media(max-width:700px){.sync-flow{gap:0;margin-top:32px;padding-left:26px}.sync-flow li{padding-top:4px;padding-bottom:30px}.sync-flow li+li{padding-top:25px}.sync-flow li::before{left:-25px;top:19px}.sync-flow li+li::before{top:40px}.sync-flow li::after,.sync-flow li:not(:last-child)::after{content:none}.flow-top{margin-bottom:22px}.flow-number{font-size:50px}.flow-icon{width:46px;height:46px;border-radius:12px}.flow-icon svg{width:25px;height:25px}.sync-flow h3{font-size:23px}.sync-flow p{max-width:none}}
+
+
+:root{--olive:color(a98-rgb 0.178 0.188 0.148)}
+
+/* Spacious workflow composition, revealed softly as it enters the viewport. */
+.principle{padding-top:80px;padding-bottom:65px}
+.principle-heading{gap:70px;margin-bottom:45px;align-items:center}
+.principle-heading>p{max-width:390px;font-size:14px;line-height:1.85;color:#c1c6b8}
+.principle .section-label{color:var(--heading-accent)}
+.sync-flow{margin-top:55px;gap:46px}
+.sync-flow li{padding-top:36px;padding-bottom:22px}
+.flow-top{margin-bottom:28px}
+.flow-number{color:#d5d9ce;letter-spacing:.005em}
+.flow-icon{border-color:#f4f5ef20;background:#f4f5ef02;border-radius:15px;transition:background .4s,border-color .4s,translate .4s}
+.sync-flow li:hover .flow-icon{translate:0 -3px}
+.sync-flow p{color:#b3baaa;line-height:1.9}
+.principle-note{color:#959d8a;margin-top:34px;padding-top:24px}
+.principle-contour{position:absolute;right:-70px;bottom:-80px;width:410px;height:260px;color:var(--heading-accent);opacity:.045;pointer-events:none;z-index:-1}
+.principle .flow-enter{opacity:0;translate:0 18px;transition:opacity .9s cubic-bezier(.2,.7,.2,1),translate .9s cubic-bezier(.2,.7,.2,1);transition-delay:var(--flow-delay,0ms)}
+.principle .flow-enter.flow-visible{opacity:1;translate:0 0}
+.sync-flow::after{content:'';position:absolute;left:0;top:-1.5px;width:4px;height:4px;border-radius:50%;background:var(--heading-accent);box-shadow:0 0 8px color-mix(in srgb,var(--heading-accent) 25%,transparent);pointer-events:none;animation:flow-travel 8s linear infinite;animation-play-state:paused}
+.principle.flow-active .sync-flow::after{animation-play-state:running}
+@keyframes flow-travel{0%{translate:0 0;opacity:0}8%{opacity:.85}92%{opacity:.85}100%{translate:var(--flow-distance,0px) 0;opacity:0}}
+@keyframes flow-travel-vertical{0%{translate:0 0;opacity:0}8%{opacity:.85}92%{opacity:.85}100%{translate:0 var(--flow-height,0px);opacity:0}}
+@media(max-width:1000px){.principle-heading{gap:40px}.sync-flow{gap:30px}}
+@media(max-width:700px){.principle{padding-top:49px;padding-bottom:42px}.principle-heading{margin-bottom:28px}.principle-heading>p{font-size:13px;max-width:none}.sync-flow{gap:0;margin-top:35px}.sync-flow li{padding-top:4px;padding-bottom:32px}.sync-flow li+li{padding-top:28px}.flow-top{margin-bottom:22px}.principle-contour{width:270px;right:-85px;bottom:-50px}.sync-flow::after{left:1.5px;top:0;animation-name:flow-travel-vertical}.principle-note{margin-top:27px}}
+@media(prefers-reduced-motion:reduce){.principle .flow-enter{opacity:1;translate:0 0}.sync-flow::after{display:none}.sync-flow li:hover .flow-icon{translate:0 0}}
+
+/* An engraved, literary treatment in the established charcoal and olive palette. */
+.principle{padding:76px 0 68px;background:var(--charcoal);background-image:radial-gradient(ellipse at 50% 0%,#69734518,transparent 65%)}
+.principle-contour{display:none}
+.principle>.shell>.section-label{justify-content:center;letter-spacing:.16em;font-size:10px}
+.principle>.shell>.section-label::after{content:'';width:24px;height:1px;background:currentColor}
+.principle-heading{display:block;text-align:center;margin:22px auto 0}
+.principle h2{font-family:var(--serif);font-weight:700;font-stretch:100%;font-variation-settings:normal;font-size:clamp(58px,7vw,98px);letter-spacing:-.025em;line-height:.91;text-transform:none}
+.principle h2 span{line-height:.96;color:var(--heading-accent)}
+.principle-heading>p{font-family:var(--sans);font-size:14px;line-height:1.85;letter-spacing:.015em;max-width:590px;margin:25px auto 0;color:#c6cbbd}
+.principle-crest{display:block;width:112px;height:72px;margin:26px auto 20px;color:var(--heading-accent);opacity:.8;pointer-events:none}
+.principle-flourish{display:block;width:220px;height:38px;margin:25px auto 0;color:var(--heading-accent);opacity:.65;pointer-events:none}
+.sync-flow{gap:24px;margin-top:39px;padding:0;align-items:stretch}
+.sync-flow::before,.sync-flow::after{display:none}
+.sync-flow li{position:relative;padding:34px 30px 36px;min-height:410px;text-align:center;border:1px solid color-mix(in srgb,var(--heading-accent) 28%,transparent);border-radius:2px;background:linear-gradient(160deg,#1a1d16,#121410);transition:border-color .45s,background .45s}
+.sync-flow li+li{padding-top:34px;border:1px solid color-mix(in srgb,var(--heading-accent) 28%,transparent)}
+.sync-flow li::before{content:'';position:absolute;inset:9px;width:auto;height:auto;border:1px solid #e1e5d012;border-radius:0;background:none;box-shadow:none;pointer-events:none}
+.sync-flow li::after,.sync-flow li:not(:last-child)::after{content:none;display:none}
+.sync-flow li:hover::before{box-shadow:none}
+.engraved-corners{position:absolute;inset:13px;width:calc(100% - 26px);height:calc(100% - 26px);color:var(--heading-accent);opacity:.42;pointer-events:none}
+.flow-top{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:19px;margin-bottom:23px}
+.flow-number{font-family:var(--serif);font-size:47px;font-weight:700;font-stretch:100%;font-variation-settings:normal;letter-spacing:.015em;line-height:1;color:var(--heading-accent)}
+.flow-icon{width:58px;height:58px;border:1px solid color-mix(in srgb,var(--heading-accent) 40%,transparent);border-radius:50%;background:none;color:#c7ceb9}
+.flow-icon::after{display:block;position:absolute;inset:5px;border:1px dotted #c7ceb940;border-radius:50%;content:''}
+.flow-icon svg{width:27px;height:27px}
+.sync-flow h3{font-family:var(--serif);font-size:clamp(25px,2.5vw,34px);font-weight:700;font-stretch:100%;font-variation-settings:normal;letter-spacing:-.01em;line-height:1.14;min-height:2.28em;margin:0 0 14px;color:var(--white)}
+.sync-flow p{font-size:13px;line-height:1.85;max-width:280px;margin:auto;color:#b9c0ae}
+.sync-flow li:hover{border-color:color-mix(in srgb,var(--heading-accent) 65%,transparent)}
+.sync-flow li:hover .flow-number{color:var(--heading-accent);translate:0 0}
+.sync-flow li:hover .flow-icon{translate:0 0;transform:none;background:color-mix(in srgb,var(--heading-accent) 4%,transparent);border-color:var(--heading-accent)}
+.principle-note{text-align:center;border-top:0;letter-spacing:.035em;font-size:11px;margin:30px auto 0;padding:0;max-width:620px;color:#a2ac92}
+@media(max-width:1000px){.sync-flow{gap:18px}.sync-flow li,.sync-flow li+li{padding:30px 23px;min-height:410px}.flow-number{font-size:43px}}
+@media(max-width:700px){.principle{padding:48px 0 44px}.principle>.shell>.section-label{font-size:9px;letter-spacing:.09em}.principle-crest{width:92px;height:59px;margin-top:22px}.principle h2{font-size:16vw;line-height:.92}.principle-heading{margin-top:18px}.principle-heading>p{font-size:13px;max-width:340px;margin-top:23px}.principle-flourish{width:175px;height:31px}.sync-flow{gap:20px;margin-top:30px;padding:0}.sync-flow li,.sync-flow li+li{min-height:0;padding:29px 27px 32px;border:1px solid color-mix(in srgb,var(--heading-accent) 28%,transparent)}.flow-number{font-size:42px}.flow-top{gap:15px;margin-bottom:20px}.sync-flow h3{font-size:30px;min-height:0;margin-bottom:15px}.sync-flow p{max-width:330px}.principle-note{font-size:10px;margin-top:26px}}
+
+
+/* Charcoal declaration and footer with light foreground details. */
+.about,.footer{background:var(--charcoal);color:var(--white)}
+.about .legal-details,.footer .shell{border-color:#f4f5ef3b}
+.about .about-top>a{border-color:#f4f5ef88;color:var(--white)}
+.about .about-top>a:hover{background:var(--lime);color:var(--olive)}
+.about .line-ornament{color:var(--white)}
+.about .registration-mark{color:var(--heading-accent)}
+.about .dot-patch{background-image:radial-gradient(var(--white) 1px,transparent 1px)}
+.about>.surface-texture{mix-blend-mode:screen;opacity:.035}
+.footer::after{background-image:conic-gradient(var(--white) 25%,var(--charcoal) 0 50%,var(--white) 0 75%,var(--charcoal) 0)}
+.footer .shell::after{background:repeating-linear-gradient(90deg,var(--white) 0 2px,transparent 2px 6px)}
+
 </style></head><body>
 <div class="reading-progress" aria-hidden="true"></div>
 <a class="skip" href="#schedule">Skip to upcoming classes</a>
@@ -364,7 +538,7 @@ body.dialog-open{overflow:hidden}
   <a class="nav-cta" href="#subscribe">Subscribe ↗</a>
   <div class="masthead"><a href="#top">D²HP CALENDAR</a><small>PARIS-SACLAY · M1 · 2026/27</small></div>
   <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="menu-panel"><span></span><span></span></button>
-  <nav class="menu-panel" id="menu-panel" aria-label="Main navigation" hidden><a href="#schedule">The classes</a><a href="#subscribe">Get connected</a><a href="#about">The project</a><p>M1 D²HP / PARIS-SACLAY / 2026–27</p></nav>
+  <nav class="menu-panel" id="menu-panel" aria-label="Main navigation" hidden><a href="#schedule">The classes</a><a href="#subscribe">Get connected</a><a href="#about">The project</a><div class="language-switch" data-language-controls role="group" aria-label="Choose language"><div class="language-options"><button type="button" data-language="en" aria-pressed="true">EN</button><button type="button" data-language="fr" aria-pressed="false">FR</button></div></div></nav>
 </header>
 <main id="top">
 <section class="hero" aria-labelledby="hero-title">
@@ -381,7 +555,8 @@ body.dialog-open{overflow:hidden}
 </section>
 <div class="timetable-band"><div class="ticker" role="region" aria-label="Your semester. In sync. D²HP Paris-Saclay. Stay connected."><div class="ticker-track" aria-hidden="true"><div class="ticker-group"><span>YOUR SEMESTER</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span class="serif">In sync.</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>D²HP / PARIS-SACLAY</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>STAY CONNECTED</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div><div class="ticker-group"><span>YOUR SEMESTER</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span class="serif">In sync.</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>D²HP / PARIS-SACLAY</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>STAY CONNECTED</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div></div></div>
 <section class="schedule" id="schedule" aria-labelledby="schedule-title"><div class="surface-texture" aria-hidden="true"></div><svg class="registration-mark" viewBox="0 0 80 80" fill="none" aria-hidden="true"><circle cx="40" cy="40" r="25" stroke="currentColor" stroke-width="1"/><path d="M40 0v22M40 58v22M0 40h22M58 40h22" stroke="currentColor" stroke-width="1"/><circle cx="40" cy="40" r="3" fill="currentColor"/></svg><div class="corner-hatch" aria-hidden="true"></div><div class="corner-mark" aria-hidden="true"></div><svg class="track-map" viewBox="0 0 320 200" fill="none" aria-hidden="true"><path id="circuit-line" d="M35 110L60 35Q64 23 82 30L145 55Q159 60 175 42L198 18Q210 8 220 24L280 97Q302 122 278 137L227 171Q212 183 192 162L153 123Q140 111 127 124L98 155Q80 176 60 155L35 130Q30 123 35 110Z" stroke="currentColor" stroke-width="1.5"/><use href="#circuit-line" class="track-trace" stroke="currentColor" stroke-width="4"/><circle cx="35" cy="112" r="5" fill="currentColor"/></svg><div class="schedule-watermark" aria-hidden="true">D²HP</div><div class="shell"><div class="section-top"><div><div class="section-label">01 / The timetable</div><h2 id="schedule-title">Upcoming<br><em>Classes.</em></h2></div><div class="section-symbol"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div></div><div class="feed-head"><span>Published sessions / Europe–Paris</span><span id="feed-status" role="status" data-state="checking">Checking feed…</span></div><div class="events" id="events" aria-live="polite"><div class="blank">Loading upcoming classes…</div></div><div class="preview-foot"><span id="feed-note">Times shown in Europe/Paris.</span><a href="calendar.ics">View calendar feed ↗</a></div></div></section></div>
-<section class="subscribe" id="subscribe" aria-labelledby="connect-title"><div class="surface-texture" aria-hidden="true"></div><svg class="line-ornament" viewBox="0 0 220 300" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width=".8"><path d="M-30 30C185-65 40 134 175 142S26 298 120 320"/><path d="M-30 40C185-55 40 144 175 152S26 308 120 330"/><path d="M-30 50C185-45 40 154 175 162S26 318 120 340"/><path d="M-30 60C185-35 40 164 175 172S26 328 120 350"/><path d="M-30 70C185-25 40 174 175 182S26 338 120 360"/></g></svg><svg class="registration-mark" viewBox="0 0 80 80" fill="none" aria-hidden="true"><circle cx="40" cy="40" r="25" stroke="currentColor" stroke-width="1"/><path d="M40 0v22M40 58v22M0 40h22M58 40h22" stroke="currentColor" stroke-width="1"/><circle cx="40" cy="40" r="3" fill="currentColor"/></svg><div class="dot-field" aria-hidden="true"></div><div class="shell"><div class="section-label" style="color:var(--olive)">02 / Stay connected</div><div class="connect-heading"><h2 id="connect-title">Subscribe to<br><span>Calendar.</span></h2><div class="connect-symbol" aria-hidden="true">↗</div></div><div class="subscription-shortcuts"><a class="button" href="webcal://d2hp-calendar.yuhaohe.com/calendar.ics" data-apple-link>Apple Calendar ↗</a><a class="button alt" href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" data-google-link target="_blank" rel="noopener noreferrer">Google Calendar ↗</a></div><div class="setup" id="how"><div><div class="step"><span class="num">01</span><div><strong>Choose your calendar.</strong><p>Apple opens the subscription directly. Google opens its “From URL” settings; paste the subscription link to finish.</p></div></div><div class="step"><span class="num">02</span><div><strong>Keep it connected.</strong><p>Subscribe to the feed rather than importing a downloaded file. On a Mac, choose iCloud to share the subscription with your Apple devices.</p></div></div></div><div><div class="link-box"><h3>The subscription URL</h3><div class="urlbox"><code id="feed-url">https://d2hp-calendar.yuhaohe.com/calendar.ics</code><button id="copy-button" type="button" aria-label="Copy calendar subscription URL">Copy ↗</button></div></div></div></div></div></section>
+<section class="subscribe" id="subscribe" aria-labelledby="connect-title"><div class="surface-texture" aria-hidden="true"></div><svg class="line-ornament" viewBox="0 0 220 300" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width=".8"><path d="M-30 30C185-65 40 134 175 142S26 298 120 320"/><path d="M-30 40C185-55 40 144 175 152S26 308 120 330"/><path d="M-30 50C185-45 40 154 175 162S26 318 120 340"/><path d="M-30 60C185-35 40 164 175 172S26 328 120 350"/><path d="M-30 70C185-25 40 174 175 182S26 338 120 360"/></g></svg><svg class="registration-mark" viewBox="0 0 80 80" fill="none" aria-hidden="true"><circle cx="40" cy="40" r="25" stroke="currentColor" stroke-width="1"/><path d="M40 0v22M40 58v22M0 40h22M58 40h22" stroke="currentColor" stroke-width="1"/><circle cx="40" cy="40" r="3" fill="currentColor"/></svg><div class="dot-field" aria-hidden="true"></div><div class="shell"><div class="section-label" style="color:var(--olive)">02 / Stay connected</div><div class="connect-heading"><h2 id="connect-title">Subscribe to<br><span>Calendar.</span></h2><div class="connect-symbol" aria-hidden="true">↗</div></div><div class="subscription-shortcuts"><a class="button" href="webcal://d2hp-calendar.yuhaohe.com/calendar.ics" data-apple-link>Apple Calendar ↗</a><a class="button alt" href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" data-google-link target="_blank" rel="noopener noreferrer">Google Calendar ↗</a></div><div class="setup" id="how"><div><div class="step"><span class="num">01</span><div><strong>Choose your calendar.</strong><p>Apple opens the subscription directly. Google shows a short setup guide; copy the URL, then open Google Calendar to finish.</p></div></div><div class="step"><span class="num">02</span><div><strong>Keep it connected.</strong><p>Subscribe to the feed rather than importing a downloaded file. On a Mac, choose iCloud to share the subscription with your Apple devices.</p></div></div></div><div><div class="link-box"><h3>The subscription URL</h3><div class="urlbox"><code id="feed-url">https://d2hp-calendar.yuhaohe.com/calendar.ics</code><button id="copy-button" type="button" aria-label="Copy calendar subscription URL">Copy ↗</button></div></div></div></div></div></section>
+
 <section class="about" id="about"><div class="surface-texture" aria-hidden="true"></div><svg class="line-ornament" viewBox="0 0 360 310" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="1"><path d="M365 20C220-85 95 30 127 130S-25 300 37 370"/><path d="M365 39C235-64 119 38 146 131S-3 298 58 370"/><path d="M365 58C250-43 143 46 165 132S19 296 79 370"/><path d="M365 77C265-22 167 54 184 133S41 294 100 370"/><path d="M365 96C280-1 191 62 203 134S63 292 121 370"/><path d="M365 115C295 20 215 70 222 135S85 290 142 370"/></g></svg><svg class="registration-mark" viewBox="0 0 80 80" fill="none" aria-hidden="true"><circle cx="40" cy="40" r="25" stroke="currentColor" stroke-width="1"/><path d="M40 0v22M40 58v22M0 40h22M58 40h22" stroke="currentColor" stroke-width="1"/><circle cx="40" cy="40" r="3" fill="currentColor"/></svg><div class="dot-patch" aria-hidden="true"></div><div class="shell"><div class="about-top"><div><h2 id="legal-title">Project, copyright<br><em>& disclaimer.</em></h2></div><a href="#top" aria-label="Back to top">↑</a></div><div class="legal-details" aria-labelledby="legal-title"><div class="legal-copy"><p><strong>© 2026 Yuhao He.</strong> Original software, website design and supplementary material are independently developed. University timetable data and other third-party material remain subject to their respective rights.</p><p><strong>Independent project.</strong> This service is not affiliated with, endorsed by, or officially maintained by Université Paris-Saclay. Information may be inaccurate or change without notice. Verify exams and important changes through official university channels. No liability is accepted for reliance on this service to the extent permitted by law.</p><p><strong>Personal academic use.</strong> Provided free of charge “as is”, without guarantees of availability, accuracy or refresh frequency. Sharing this link does not grant rights to republish third-party content.</p></div></div></div></section>
 </main><footer class="footer"><div class="shell"><span>© 2026 Yuhao He · D²HP Calendar Sync</span><span>An independent student project</span></div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -471,7 +646,7 @@ body.dialog-open{overflow:hidden}
   function unfold(raw) { return raw.replace(/\r?\n[ \t]/g, ''); }
   function decode(s) { return (s || '').replace(/\\([nN,;\\])/g, (_, c) => /n/i.test(c) ? '\n' : c); }
   function parts(date, zone = 'Europe/Paris') {
-    const p = new Intl.DateTimeFormat('en-GB', {timeZone:zone, year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hourCycle:'h23'}).formatToParts(date);
+    const p = new Intl.DateTimeFormat(document.documentElement.lang==='fr'?'fr-FR':'en-GB', {timeZone:zone, year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hourCycle:'h23'}).formatToParts(date);
     const g = k => +p.find(x => x.type === k).value;
     return {year:g('year'), month:g('month'), day:g('day'), hour:g('hour'), minute:g('minute'), second:g('second')};
   }
@@ -519,7 +694,7 @@ body.dialog-open{overflow:hidden}
   function detail(parent, label, value, tag='small') {const n=el(tag); n.append(el('b','',label),document.createTextNode(value)); parent.append(n);}
   const clock = d => `${String(d.hour).padStart(2,'0')}:${String(d.minute).padStart(2,'0')}`;
   const time = e => clock(e.date) + (e.end ? '–'+clock(e.end) : '');
-  const dateLabel = d => new Intl.DateTimeFormat('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'Europe/Paris'}).format(new Date(d.instant));
+  const dateLabel = d => new Intl.DateTimeFormat(document.documentElement.lang==='fr'?'fr-FR':'en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'Europe/Paris'}).format(new Date(d.instant));
   function timetableWindow(events, now=Date.now()) {
     const today=parts(new Date(now));
     // Advance the calendar date, rather than adding 24 hours across a DST change.
@@ -531,13 +706,18 @@ body.dialog-open{overflow:hidden}
       tomorrow:events.filter(event=>sameDay(event.date,tomorrow))
     };
   }
-  async function render() {
+  let cachedCalendar=null;
+  async function render(useCache=false) {
     const list=document.querySelector('#events'), hero=document.querySelector('#hero-events'), status=document.querySelector('#feed-status');
     const updateStatus=(state,label)=>{status.dataset.state=state;status.textContent=label;};
     updateStatus('checking','Checking feed…');
     try {
-      const res=await fetch(FETCH_FEED,{cache:'no-store'}); if(!res.ok)throw Error('HTTP '+res.status);
-      const raw=await res.text(); if(!raw.trimStart().startsWith('BEGIN:VCALENDAR'))throw Error('Invalid calendar feed');
+      let raw=cachedCalendar;
+      if(!useCache || !raw){
+        const res=await fetch(FETCH_FEED,{cache:'no-store'});if(!res.ok)throw Error('HTTP '+res.status);
+        raw=await res.text();if(!raw.trimStart().startsWith('BEGIN:VCALENDAR'))throw Error('Invalid calendar feed');
+        cachedCalendar=raw;
+      }
       const events=parseIcs(raw), now=Date.now();
       const upcoming=events.filter(e=>(e.end?.instant || e.date.instant)>now);
       const windowEvents=timetableWindow(events,now);
@@ -545,8 +725,8 @@ body.dialog-open{overflow:hidden}
       const visibleEvents=[...windowEvents.today,...windowEvents.tomorrow];
       for(const e of visibleEvents) {
         const row=el('article','event'), d=el('div','date');
-        d.append(el('b','',String(e.date.day).padStart(2,'0')),el('small','',new Intl.DateTimeFormat('en',{month:'short',timeZone:'Europe/Paris'}).format(new Date(e.date.instant))));
-        d.append(el('small','weekday',new Intl.DateTimeFormat('en-GB',{weekday:'short',timeZone:'Europe/Paris'}).format(new Date(e.date.instant))));
+        d.append(el('b','',String(e.date.day).padStart(2,'0')),el('small','',new Intl.DateTimeFormat(document.documentElement.lang==='fr'?'fr-FR':'en-GB',{month:'short',timeZone:'Europe/Paris'}).format(new Date(e.date.instant))));
+        d.append(el('small','weekday',new Intl.DateTimeFormat(document.documentElement.lang==='fr'?'fr-FR':'en-GB',{weekday:'short',timeZone:'Europe/Paris'}).format(new Date(e.date.instant))));
         const info=el('div','info'); info.append(el('span','label','Module'),el('strong','',e.module));
         detail(info,'Session',e.session); detail(info,'Lecturer',e.lecturer); detail(info,'Location',e.location);
         row.append(d,info,el('div','time',time(e)));list.append(row);
@@ -563,8 +743,8 @@ body.dialog-open{overflow:hidden}
       const first = upcoming[0].date;
       document.querySelector('#hero-day').textContent = String(first.day).padStart(2,'0');
       document.querySelector('#hero-year').textContent = first.year;
-      document.querySelector('#hero-month').textContent = new Intl.DateTimeFormat('en-GB',{month:'long',timeZone:'Europe/Paris'}).format(new Date(first.instant));
-      document.querySelector('#hero-weekday').textContent = new Intl.DateTimeFormat('en-GB',{weekday:'long',timeZone:'Europe/Paris'}).format(new Date(first.instant));
+      document.querySelector('#hero-month').textContent = new Intl.DateTimeFormat(document.documentElement.lang==='fr'?'fr-FR':'en-GB',{month:'long',timeZone:'Europe/Paris'}).format(new Date(first.instant));
+      document.querySelector('#hero-weekday').textContent = new Intl.DateTimeFormat(document.documentElement.lang==='fr'?'fr-FR':'en-GB',{weekday:'long',timeZone:'Europe/Paris'}).format(new Date(first.instant));
       for(const e of upcoming.slice(0,1)) {
         const card=el('article','hero-event');
         card.append(el('div','when',dateLabel(e.date)+' · '+time(e)),el('span','label','Module'),el('h3','',e.module));
@@ -590,6 +770,7 @@ body.dialog-open{overflow:hidden}
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!menu.hidden){setMenu(false);menuButton.focus();}});
   document.addEventListener('click',e=>{if(!menu.contains(e.target)&&!menuButton.contains(e.target))setMenu(false);});
   document.querySelector('.preview-foot a').href=FEED;
+  document.addEventListener('calendar-language-change',()=>{if(cachedCalendar)render(true);});
   render();
   setInterval(render, 5 * 60 * 1000);
 })();
@@ -749,4 +930,65 @@ body.dialog-open{overflow:hidden}
  });
 })();
 </script>
+<script>
+(() => {
+ const translations={"Skip to upcoming classes": "Aller aux prochains cours", "Subscribe ↗": "S’abonner ↗", "D²HP CALENDAR": "CALENDRIER D²HP", "The classes": "Les cours", "Get connected": "S’abonner", "The project": "Le projet", "00 / YOUR SEMESTER, IN SYNC": "00 / VOTRE SEMESTRE, SYNCHRONISÉ", "Course": "Les cours", "Calendar.": "Calendrier.", "Keep your M1 D²HP timetable in sync with your calendar.": "Synchronisez votre emploi du temps de M1 D²HP avec votre calendrier.", "Apple Calendar": "Calendrier Apple", "Google Calendar": "Google Agenda", "Apple Calendar ↗": "Calendrier Apple ↗", "Google Calendar ↗": "Google Agenda ↗", "NEXT CLASS": "PROCHAIN COURS", "UP NEXT": "À VENIR", "PARIS TIME": "HEURE DE PARIS", "YOUR SEMESTER ↗": "VOTRE SEMESTRE ↗", "IN SYNC ✳": "SYNCHRONISÉ ✳", "Scroll to explore": "Défiler pour découvrir", "Less admin. More learning.": "Moins de démarches. Plus d’apprentissage.", "Your semester.": "Votre semestre.", "Always in sync.": "Toujours synchronisé.", "Explore classes": "Voir les cours", "Next on the timetable": "Prochain cours au programme", "Loading next class…": "Chargement du prochain cours…", "YOUR SEMESTER": "VOTRE SEMESTRE", "In sync.": "Synchronisé.", "STAY CONNECTED": "RESTEZ CONNECTÉ", "01 / The timetable": "01 / L’emploi du temps", "Upcoming": "Prochains", "Classes.": "Cours.", "Published sessions / Europe–Paris": "Séances publiées / Europe–Paris", "Checking feed…": "Vérification…", "Feed available": "Flux disponible", "Preview unavailable": "Aperçu indisponible", "Loading upcoming classes…": "Chargement des prochains cours…", "Times shown in Europe/Paris.": "Horaires affichés à l’heure de Paris.", "View calendar feed ↗": "Voir le flux du calendrier ↗", "02 / Stay connected": "02 / Restez connecté", "Subscribe to": "Abonnez-vous au", "Choose your calendar.": "Choisissez votre calendrier.", "Keep it connected.": "Gardez-le synchronisé.", "Subscribe to the feed rather than importing a downloaded file. On a Mac, choose iCloud to share the subscription with your Apple devices.": "Abonnez-vous au flux plutôt que d’importer un fichier téléchargé. Sur Mac, choisissez iCloud pour partager l’abonnement avec vos appareils Apple.", "The subscription URL": "L’URL d’abonnement", "Copy ↗": "Copier ↗", "Project, copyright": "Projet, droits d’auteur", "& disclaimer.": "& avertissement.", "Original software, website design and supplementary material are independently developed. University timetable data and other third-party material remain subject to their respective rights.": "Le logiciel, la conception du site et les contenus complémentaires sont développés de manière indépendante. Les données universitaires de l’emploi du temps et les contenus tiers restent soumis à leurs droits respectifs.", "Independent project.": "Projet indépendant.", "This service is not affiliated with, endorsed by, or officially maintained by Université Paris-Saclay. Information may be inaccurate or change without notice. Verify exams and important changes through official university channels. No liability is accepted for reliance on this service to the extent permitted by law.": "Ce service n’est ni affilié à l’Université Paris-Saclay, ni approuvé ou officiellement maintenu par celle-ci. Les informations peuvent être inexactes ou changer sans préavis. Vérifiez les examens et les changements importants auprès des canaux officiels de l’université. Dans les limites autorisées par la loi, aucune responsabilité n’est acceptée concernant l’utilisation de ce service.", "Personal academic use.": "Usage universitaire personnel.", "Provided free of charge “as is”, without guarantees of availability, accuracy or refresh frequency. Sharing this link does not grant rights to republish third-party content.": "Fourni gratuitement « en l’état », sans garantie de disponibilité, d’exactitude ou de fréquence de mise à jour. Le partage de ce lien ne donne aucun droit de republier les contenus tiers.", "An independent student project": "Un projet étudiant indépendant", "Calendar subscription": "Abonnement au calendrier", "Add to Google": "Ajouter à Google", "Google Calendar needs you to paste the subscription URL yourself. Copy it below, then complete the following steps in a desktop browser.": "Google Agenda nécessite que vous colliez vous-même l’URL d’abonnement. Copiez-la ci-dessous, puis suivez ces étapes dans un navigateur sur ordinateur.", "Your subscription URL": "Votre URL d’abonnement", "Copy URL ↗": "Copier l’URL ↗", "Copy the URL above.": "Copiez l’URL ci-dessus.", "Use “Copy URL”, or select and copy the address yourself.": "Cliquez sur « Copier l’URL », ou sélectionnez et copiez l’adresse vous-même.", "Open Google Calendar below.": "Ouvrez Google Agenda ci-dessous.", "Sign in to the Google account you want to use. The link opens Settings → Add calendar → From URL.": "Connectez-vous au compte Google souhaité. Le lien ouvre Paramètres → Ajouter un agenda → À partir de l’URL.", "Paste and add the calendar.": "Collez l’URL et ajoutez l’agenda.", "Paste the copied address into “URL of calendar”, then click “Add calendar”. It will appear under “Other calendars”.": "Collez l’adresse dans « URL de l’agenda », puis cliquez sur « Ajouter un agenda ». Il apparaîtra sous « Autres agendas ».", "Open Google Calendar": "Ouvrir Google Agenda", "Subscription link copied": "Lien d’abonnement copié", "Select the highlighted URL to copy": "Sélectionnez l’URL surlignée pour la copier", "URL copied. Paste it into Google Calendar to finish.": "URL copiée. Collez-la dans Google Agenda pour terminer.", "Select the highlighted URL and copy it using your device’s Copy command.": "Sélectionnez l’URL surlignée et utilisez la commande Copier de votre appareil.", "No classes to show for today or tomorrow.": "Aucun cours à afficher aujourd’hui ou demain.", "No upcoming classes in the published timetable.": "Aucun prochain cours dans l’emploi du temps publié.", "NO CLASSES": "AUCUN COURS", "UPCOMING": "À VENIR", "CALENDAR": "CALENDRIER", "Today and tomorrow · Europe/Paris time": "Aujourd’hui et demain · Heure de Paris", "The live preview is temporarily unavailable. You can still subscribe using the buttons above.": "L’aperçu est temporairement indisponible. Vous pouvez toujours vous abonner avec les boutons ci-dessus.", "Course details will appear when the calendar feed is available.": "Les détails des cours apparaîtront lorsque le flux sera disponible.", "Module": "Module", "Session": "Séance", "Lecturer": "Intervenant", "Location": "Lieu", "Not specified in timetable": "Non précisé dans l’emploi du temps", "Module not specified": "Module non précisé", "Location TBC": "Lieu à confirmer", "Open navigation": "Ouvrir la navigation", "Close navigation": "Fermer la navigation", "Main navigation": "Navigation principale", "Date of the next published class": "Date du prochain cours publié", "Next class from the live feed": "Prochain cours du calendrier", "Back to top": "Retour en haut", "Copy calendar subscription URL": "Copier l’URL d’abonnement", "Close Google Calendar instructions": "Fermer les instructions pour Google Agenda", "Your semester. In sync. D²HP Paris-Saclay. Stay connected.": "Votre semestre. Synchronisé. D²HP Paris-Saclay. Restez connecté.", "© 2026 Yuhao He · D²HP Calendar Sync": "© 2026 Yuhao He · Synchronisation D²HP", "Apple opens the subscription directly. Google shows a short setup guide; copy the URL, then open Google Calendar to finish.": "Apple ouvre directement l’abonnement. Pour Google Agenda, suivez les instructions, puis collez le lien dans les paramètres « À partir de l’URL ».", "03 / Behind the calendar": "03 / Les coulisses du calendrier", "How it": "Comment ça", "works.": "fonctionne.", "The service automatically reads course updates and changes in Google Docs, then publishes them to the calendar subscription feed.": "Le service récupère automatiquement les mises à jour et les modifications des cours dans Google Docs, puis les publie dans le flux d’abonnement au calendrier.", "The timetable is the source. The service automatically checks it for course updates and changes.": "L’emploi du temps est la source. Le service le consulte automatiquement pour détecter les mises à jour et les modifications des cours.", "Calendar feed": "Flux du calendrier", "Updated course information is reflected in the shared .ics subscription feed.": "Les informations des cours mises à jour sont répercutées dans le flux d’abonnement .ics partagé.", "Your calendar": "Votre calendrier", "Apple Calendar or Google Calendar refreshes the subscribed feed to bring the latest changes into your calendar.": "Calendrier Apple ou Google Agenda actualise le flux auquel vous êtes abonné pour intégrer les dernières modifications à votre calendrier.", "Subscribe once to stay connected to future timetable updates.": "Abonnez-vous une fois pour recevoir les prochaines mises à jour de l’emploi du temps.", "How it works": "Fonctionnement"};
+ const sourceText=new WeakMap(),sourceAttrs=new WeakMap();
+ let language='en',queued=false;
+ const observer=new MutationObserver(()=>{if(!queued){queued=true;queueMicrotask(()=>{queued=false;translatePage();});}});
+ function translated(text){
+  if(language==='en')return text;
+  const trimmed=text.trim();
+  let value=translations[trimmed];
+  if(value===undefined){
+   const count=trimmed.match(/^Showing (\d+) classes · Today and tomorrow · Europe\/Paris time$/);
+   if(count)value=`${count[1]} cours · Aujourd’hui et demain · Heure de Paris`;
+  }
+  return value===undefined?text:text.replace(trimmed,value);
+ }
+ function translatePage(){
+  observer.disconnect();
+  const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode(node){return node.parentElement?.closest('script,style,code,[data-language-controls]')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT;}});
+  let node;
+  while(node=walker.nextNode()){
+   const current=node.nodeValue;
+   if(!sourceText.has(node))sourceText.set(node,current);
+   const original=sourceText.get(node);
+   let next=translated(original);
+   if(language==='fr' && node.parentElement.closest('#hero-title')){
+    const value=original.trim();
+    if(value==='Course')next=original.replace(value,'Calendrier');
+    if(value==='Calendar.')next=original.replace(value,'des cours.');
+   }
+   if(language==='fr' && node.parentElement.closest('#google-tutorial-title') && original.trim()==='Calendar.')next=original.replace('Calendar.','Agenda.');
+   if(next!==current)node.nodeValue=next;
+  }
+  document.querySelectorAll('[aria-label]').forEach(element=>{
+   let saved=sourceAttrs.get(element);
+   const current=element.getAttribute('aria-label');
+   if(!saved || (current!==saved.output && current!==saved.original))saved={original:current};
+   const next=translated(saved.original);saved.output=next;sourceAttrs.set(element,saved);
+   if(current!==next)element.setAttribute('aria-label',next);
+  });
+  document.documentElement.lang=language;
+  document.title=language==='fr'?'Calendrier des cours D²HP':'D²HP Course Calendar';
+  document.querySelectorAll('[data-language]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.language===language)));
+  document.querySelector('[data-language-controls]').setAttribute('aria-label',language==='fr'?'Choisir la langue':'Choose language');
+  observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label']});
+ }
+ function selectLanguage(next,refresh=true){
+  language=next==='fr'?'fr':'en';
+  translatePage();
+  try{localStorage.setItem('d2hp-language',language);}catch(_){}
+  if(refresh)document.dispatchEvent(new Event('calendar-language-change'));
+  // Recalculate the floating masthead's offsets for its translated label.
+  window.dispatchEvent(new Event('resize'));
+ }
+ document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>selectLanguage(button.dataset.language)));
+ let saved='en';try{saved=localStorage.getItem('d2hp-language')||'en';}catch(_){}
+ selectLanguage(saved);
+})();
+
+</script>
+
 </body></html>
