@@ -120,7 +120,64 @@ b,
 strong,
 .link-box h3,
 .legal-copy strong{font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90}
+/* Motion and trackside details, inspired by the reference's layered composition. */
+.reading-progress{position:fixed;inset:0 auto auto 0;width:100%;height:3px;background:var(--lime);transform:scaleX(var(--page-progress,0));transform-origin:left;z-index:100;pointer-events:none;box-shadow:0 1px 0 #282d2226}
+.hero .contours{transform:translateY(var(--contour-y,0px)) scale(1.07)}
+.hero h1{translate:0 var(--heading-y,0px);animation:title-arrive 1.15s cubic-bezier(.2,.7,.2,1) both}
+.sculpture{translate:0 var(--object-y,0px);transform:translateX(-50%) rotate(var(--pointer-tilt,0deg));transition:transform .55s cubic-bezier(.2,.7,.2,1)}
+.orbit-tag.one{animation:tag-drift 5s ease-in-out infinite}.orbit-tag.two{animation:tag-drift 6s ease-in-out -2s infinite}
+.hero .orbit-ring{rotate:var(--orbit-rotation,0deg)}
+.hero .hero-sub{animation:soft-arrive 1s .15s both}.hero>.actions{animation:soft-arrive 1s .3s both}
+.scroll-marker{position:absolute;left:50%;bottom:28px;translate:-50% 0;display:flex;align-items:center;gap:13px;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--olive);text-decoration:none;z-index:4}.scroll-marker i{width:20px;height:32px;border:1px solid;border-radius:14px;position:relative}.scroll-marker i::after{content:'';position:absolute;top:7px;left:8px;width:2px;height:6px;background:currentColor;animation:scroll-pulse 1.8s ease-in-out infinite}
+.hero-bottom{padding-bottom:36px}
+.schedule .info>strong{letter-spacing:.008em;line-height:1.13}
+.schedule .date b{letter-spacing:.025em;font-variant-numeric:tabular-nums}
+.schedule .event{position:relative;overflow:hidden;transition:background .35s,transform .35s,opacity .75s}
+.schedule .event::after{content:'';position:absolute;inset:auto 0 0;height:1px;background:var(--lime);transform:scaleX(0);transform-origin:left;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.schedule .event:hover::after{transform:scaleX(1)}
+.schedule .date{position:relative}.schedule .date::after{content:'';display:block;width:24px;height:3px;margin-top:17px;background:repeating-linear-gradient(90deg,var(--lime) 0 3px,transparent 3px 6px);opacity:.5}
+.section-top{position:relative}.section-symbol{rotate:var(--section-turn,0deg);transition:rotate .2s linear}
+.track-map{position:absolute;right:12%;top:60px;width:min(25vw,310px);height:190px;color:var(--lime);opacity:.15;pointer-events:none;z-index:-1}.track-map .track-trace{stroke-dasharray:40 900;animation:track-run 9s linear infinite;opacity:1}
+.schedule-watermark{position:absolute;right:-30px;bottom:34px;font-size:clamp(130px,28vw,430px);font-family:var(--sans);font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90;letter-spacing:-.04em;line-height:1;-webkit-text-stroke:1px #d3ff001a;color:transparent;translate:var(--watermark-x,0px) 0;z-index:-1;pointer-events:none}
+.section-top::after{content:'';position:absolute;right:0;bottom:-25px;width:46px;height:8px;background:repeating-linear-gradient(90deg,var(--lime) 0 2px,transparent 2px 6px);opacity:.6}
+.corner-mark{position:absolute;top:33px;right:35px;width:13px;height:13px;border-top:1px solid var(--lime);border-right:1px solid var(--lime);opacity:.6}
+.sync-ribbon{overflow:hidden;margin-top:34px;padding:15px 0;border-top:1px solid #282d2235;border-bottom:1px solid #282d2235;rotate:-1deg;width:calc(100% + 24px);margin-left:-12px}
+.sync-ribbon-track{display:flex;width:max-content;animation:reverse-ribbon 38s linear infinite;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:750;font-stretch:90%;font-variation-settings:'wdth' 90}
+.sync-ribbon-group{display:flex;gap:35px;align-items:center;padding-right:35px}.sync-ribbon-group span{white-space:nowrap}.sync-ribbon-group svg{width:18px;height:18px;flex:none}
+.subscribe .setup{margin-top:38px}.subscribe .connect-symbol{position:relative;overflow:hidden;isolation:isolate;transition:transform .5s}.subscribe .connect-symbol::before{content:'';position:absolute;inset:7px;border:1px dashed #282d2255;border-radius:50%;animation:spin 24s linear infinite;z-index:-1}.subscribe .connect-symbol:hover{transform:rotate(0deg) scale(1.08)}
+.dot-field{position:absolute;right:8%;bottom:38px;width:100px;height:55px;background:radial-gradient(var(--olive) 1.5px,transparent 1.5px);background-size:10px 10px;opacity:.18;pointer-events:none}
+.motion-in{opacity:0;transform:translateY(22px);transition:opacity .75s cubic-bezier(.2,.7,.2,1),transform .75s cubic-bezier(.2,.7,.2,1);transition-delay:var(--reveal-delay,0ms)}
+.motion-in.motion-visible{opacity:1;transform:none}
+.schedule .event.motion-in{opacity:0;transform:translateY(22px);transition-delay:var(--reveal-delay,0ms)}
+.schedule .event.motion-visible{opacity:1;transform:none;transition-delay:0ms}.schedule .event.motion-visible:hover{transform:translateX(5px)}
+.step.motion-visible .num{animation:number-pop .65s both}
+@keyframes title-arrive{from{opacity:0;clip-path:inset(0 0 100%);transform:translateY(22px)}to{opacity:1;clip-path:inset(0);transform:none}}
+@keyframes soft-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes tag-drift{0%,100%{translate:0 0}50%{translate:0 -8px}}
+@keyframes scroll-pulse{0%,100%{translate:0 0;opacity:.35}55%{translate:0 8px;opacity:1}}
+@keyframes track-run{to{stroke-dashoffset:-940}}
+@keyframes reverse-ribbon{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@keyframes number-pop{0%{transform:scale(.8)}65%{transform:scale(1.08)}100%{transform:scale(1)}}
+@media(max-width:700px){.scroll-marker{display:none}.hero-bottom{padding-bottom:0}.track-map{right:5%;top:30px;width:180px;height:120px;opacity:.1}.corner-mark{right:18px;top:22px;width:9px;height:9px}.schedule .info>strong{letter-spacing:.01em}.schedule .date b{letter-spacing:.035em}.schedule-watermark{right:-18px;bottom:22px;font-size:46vw}.sync-ribbon{padding:13px 0;margin-top:25px}.sync-ribbon-track{font-size:10px}.sync-ribbon-group{gap:24px;padding-right:24px}.subscribe .connect-symbol{position:absolute}.dot-field{right:18px;bottom:16px;width:60px;height:30px}}
+@media(prefers-reduced-motion:reduce){.motion-in,.schedule .event.motion-in{opacity:1;transform:none}.hero h1,.sculpture{translate:0 0}.hero .contours{transform:scale(1.07)}.hero .orbit-ring,.section-symbol{rotate:0deg}.schedule-watermark{translate:0 0}.sculpture{transform:translateX(-50%)}.sync-ribbon-track{animation:none}}
+
+
+/* Proportional figures use Helvetica Now's stem-only numeral one. */
+.cal-day,.schedule .date b{font-variant-numeric:lining-nums proportional-nums;font-feature-settings:'tnum' 0,'pnum' 1}
+.subscription-shortcuts{gap:12px;align-items:center}
+.subscription-shortcuts .button{min-width:190px;min-height:56px;flex:0 1 auto;padding:0 25px;font-size:12px;text-decoration:none}
+.link-box{position:relative;background:var(--white);border:1px solid var(--olive);border-radius:20px;padding:28px;box-shadow:0 5px 0 var(--olive);overflow:hidden}
+.link-box::after{content:'';position:absolute;right:18px;top:18px;width:11px;height:11px;border-top:1px solid #282d2250;border-right:1px solid #282d2250;pointer-events:none}
+.link-box h3{font-size:12px;letter-spacing:.08em;display:flex;align-items:center;gap:12px;margin:0 0 23px}
+.link-box h3::before{content:'↗';display:grid;place-items:center;width:30px;height:30px;border:1px solid var(--olive);border-radius:50%;background:var(--lime);font-size:17px;flex:none}
+.link-box .urlbox{border-top:1px solid #282d222a;border-bottom:0;padding-top:18px;padding-bottom:0;align-items:center;gap:16px}
+.link-box .urlbox code{font-size:13px;line-height:1.7;padding:0;letter-spacing:0}
+.link-box .urlbox button{min-height:44px;padding:12px 18px;flex-shrink:0}
+.link-box .urlbox button:hover{background:var(--lime);color:var(--olive)}
+@media(max-width:700px){.subscription-shortcuts{gap:9px}.subscription-shortcuts .button{min-width:0;flex:1;min-height:52px;font-size:10px;padding:0 13px}.link-box{padding:21px 18px;border-radius:16px}.link-box h3{font-size:10px;gap:10px;margin-bottom:18px}.link-box .urlbox{gap:12px;padding-top:16px}.link-box .urlbox code{font-size:11px}.link-box .urlbox button{font-size:10px;padding:11px 14px}}
+
 </style></head><body>
+<div class="reading-progress" aria-hidden="true"></div>
 <a class="skip" href="#schedule">Skip to upcoming classes</a>
 <header class="header">
   <a class="nav-cta" href="#subscribe">Subscribe ↗</a>
@@ -139,11 +196,11 @@ strong,
     <div class="object-shadow" aria-hidden="true"></div><div class="calendar-object"><div class="rings" aria-hidden="true"><i></i><i></i></div><div class="calendar-face"><div class="cal-top"><span>NEXT CLASS</span><span id="hero-year">—</span></div><div class="cal-day" id="hero-day">—</div><div class="cal-bottom"><strong id="hero-month">UP NEXT</strong><span id="hero-weekday">PARIS TIME</span></div></div></div>
     <div class="orbit-tag one" aria-hidden="true">YOUR SEMESTER ↗</div><div class="orbit-tag two" aria-hidden="true">IN SYNC ✳</div>
   </div>
-  <div class="hero-bottom"><div class="hero-note"><div class="caps">Less admin. More learning.</div><p>Your semester.<br>Always in sync.</p><a href="#schedule">Explore classes <span aria-hidden="true">↓</span></a></div><aside class="next-live" aria-label="Next class from the live feed"><div class="caps"><span>Next on the timetable</span></div><div id="hero-events" aria-live="polite"><div class="blank">Loading next class…</div></div></aside></div>
+  <a class="scroll-marker" href="#schedule"><i aria-hidden="true"></i>Scroll to explore</a><div class="hero-bottom"><div class="hero-note"><div class="caps">Less admin. More learning.</div><p>Your semester.<br>Always in sync.</p><a href="#schedule">Explore classes <span aria-hidden="true">↓</span></a></div><aside class="next-live" aria-label="Next class from the live feed"><div class="caps"><span>Next on the timetable</span></div><div id="hero-events" aria-live="polite"><div class="blank">Loading next class…</div></div></aside></div>
 </section>
 <div class="timetable-band"><div class="ticker" role="region" aria-label="Your semester. In sync. D²HP Paris-Saclay. Stay connected."><div class="ticker-track" aria-hidden="true"><div class="ticker-group"><span>YOUR SEMESTER</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span class="serif">In sync.</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>D²HP / PARIS-SACLAY</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>STAY CONNECTED</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div><div class="ticker-group"><span>YOUR SEMESTER</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span class="serif">In sync.</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>D²HP / PARIS-SACLAY</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg><span>STAY CONNECTED</span><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div></div></div>
-<section class="schedule" id="schedule" aria-labelledby="schedule-title"><div class="shell"><div class="section-top"><div><div class="section-label">01 / The timetable</div><h2 id="schedule-title">Upcoming<br><em>Classes.</em></h2></div><div class="section-symbol"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div></div><div class="feed-head"><span>Published sessions / Europe–Paris</span><span id="feed-status" role="status">Checking feed…</span></div><div class="events" id="events" aria-live="polite"><div class="blank">Loading upcoming classes…</div></div><div class="preview-foot"><span id="feed-note">Times shown in Europe/Paris.</span><a href="calendar.ics">View calendar feed ↗</a></div></div></section></div>
-<section class="subscribe" id="subscribe" aria-labelledby="connect-title"><div class="shell"><div class="section-label" style="color:var(--olive)">02 / Stay connected</div><div class="connect-heading"><h2 id="connect-title">Subscribe to<br><span>Calendar.</span></h2><div class="connect-symbol" aria-hidden="true">↗</div></div><div class="subscription-shortcuts"><a href="webcal://d2hp-calendar.yuhaohe.com/calendar.ics" data-apple-link>Apple Calendar ↗</a><a href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" data-google-link target="_blank" rel="noopener noreferrer">Google Calendar ↗</a></div><div class="setup" id="how"><div><div class="step"><span class="num">01</span><div><strong>Choose your calendar.</strong><p>Apple opens the subscription directly. Google opens its “From URL” settings; paste the subscription link to finish.</p></div></div><div class="step"><span class="num">02</span><div><strong>Keep it connected.</strong><p>Subscribe to the feed rather than importing a downloaded file. On a Mac, choose iCloud to share the subscription with your Apple devices.</p></div></div></div><div><div class="link-box"><h3>The subscription URL</h3><div class="urlbox"><code id="feed-url">https://d2hp-calendar.yuhaohe.com/calendar.ics</code><button id="copy-button" type="button" aria-label="Copy calendar subscription URL">Copy ↗</button></div></div><div class="faq"><details><summary>How quickly do changes appear?</summary><p>Apple and Google decide when to refresh subscribed calendars. Changes can take hours; check the official timetable for last-minute updates.</p></details></div></div></div></div></section>
+<section class="schedule" id="schedule" aria-labelledby="schedule-title"><div class="corner-mark" aria-hidden="true"></div><svg class="track-map" viewBox="0 0 320 200" fill="none" aria-hidden="true"><path id="circuit-line" d="M35 110L60 35Q64 23 82 30L145 55Q159 60 175 42L198 18Q210 8 220 24L280 97Q302 122 278 137L227 171Q212 183 192 162L153 123Q140 111 127 124L98 155Q80 176 60 155L35 130Q30 123 35 110Z" stroke="currentColor" stroke-width="1.5"/><use href="#circuit-line" class="track-trace" stroke="currentColor" stroke-width="4"/><circle cx="35" cy="112" r="5" fill="currentColor"/></svg><div class="schedule-watermark" aria-hidden="true">D²HP</div><div class="shell"><div class="section-top"><div><div class="section-label">01 / The timetable</div><h2 id="schedule-title">Upcoming<br><em>Classes.</em></h2></div><div class="section-symbol"><svg viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 3v94M3 50h94M17 17l66 66M17 83l66-66" stroke="currentColor" stroke-width="9"/></svg></div></div><div class="feed-head"><span>Published sessions / Europe–Paris</span><span id="feed-status" role="status">Checking feed…</span></div><div class="events" id="events" aria-live="polite"><div class="blank">Loading upcoming classes…</div></div><div class="preview-foot"><span id="feed-note">Times shown in Europe/Paris.</span><a href="calendar.ics">View calendar feed ↗</a></div></div></section></div>
+<section class="subscribe" id="subscribe" aria-labelledby="connect-title"><div class="dot-field" aria-hidden="true"></div><div class="shell"><div class="section-label" style="color:var(--olive)">02 / Stay connected</div><div class="connect-heading"><h2 id="connect-title">Subscribe to<br><span>Calendar.</span></h2><div class="connect-symbol" aria-hidden="true">↗</div></div><div class="subscription-shortcuts"><a class="button" href="webcal://d2hp-calendar.yuhaohe.com/calendar.ics" data-apple-link>Apple Calendar ↗</a><a class="button alt" href="https://calendar.google.com/calendar/u/0/r/settings/addbyurl" data-google-link target="_blank" rel="noopener noreferrer">Google Calendar ↗</a></div><div class="setup" id="how"><div><div class="step"><span class="num">01</span><div><strong>Choose your calendar.</strong><p>Apple opens the subscription directly. Google opens its “From URL” settings; paste the subscription link to finish.</p></div></div><div class="step"><span class="num">02</span><div><strong>Keep it connected.</strong><p>Subscribe to the feed rather than importing a downloaded file. On a Mac, choose iCloud to share the subscription with your Apple devices.</p></div></div></div><div><div class="link-box"><h3>The subscription URL</h3><div class="urlbox"><code id="feed-url">https://d2hp-calendar.yuhaohe.com/calendar.ics</code><button id="copy-button" type="button" aria-label="Copy calendar subscription URL">Copy ↗</button></div></div></div></div></div></section>
 <section class="about" id="about"><div class="shell"><div class="about-top"><div><h2 id="legal-title">Project, copyright<br><em>& disclaimer.</em></h2></div><a href="#top" aria-label="Back to top">↑</a></div><div class="legal-details" aria-labelledby="legal-title"><div class="legal-copy"><p><strong>© 2026 Yuhao He.</strong> Original software, website design and supplementary material are independently developed. University timetable data and other third-party material remain subject to their respective rights.</p><p><strong>Independent project.</strong> This service is not affiliated with, endorsed by, or officially maintained by Université Paris-Saclay. Information may be inaccurate or change without notice. Verify exams and important changes through official university channels. No liability is accepted for reliance on this service to the extent permitted by law.</p><p><strong>Personal academic use.</strong> Provided free of charge “as is”, without guarantees of availability, accuracy or refresh frequency. Sharing this link does not grant rights to republish third-party content.</p></div></div></div></section>
 </main><footer class="footer"><div class="shell"><span>© 2026 Yuhao He · D²HP Calendar Sync</span><span>An independent student project / Paris-Saclay</span></div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
 
@@ -281,16 +338,68 @@ strong,
 })();
 </script>
 <script>
-// Decoration never blocks timetable content or subscription actions.
 (() => {
+ 'use strict';
  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
- if(!reduce.matches && 'IntersectionObserver' in window){
-  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
-   if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}
-  }),{threshold:.08});
-  document.querySelectorAll('.section-top,.connect-heading,.setup,.about-top').forEach(node=>{node.classList.add('reveal-ready');observer.observe(node);});
-  reduce.addEventListener('change',e=>{if(e.matches){document.querySelectorAll('.reveal-ready').forEach(n=>n.classList.add('is-visible'));observer.disconnect();}});
+ const root=document.documentElement,hero=document.querySelector('.hero');
+ const schedule=document.querySelector('.schedule'),sculpture=document.querySelector('.sculpture');
+ let frame=0,activeObserver=null;
+ const targets='.section-top,.connect-heading,.setup,.about-top,.event,.step,.link-box,.legal-copy p';
+ function register(container){
+  const nodes=container.querySelectorAll(targets);
+  nodes.forEach((node,index)=>{
+   if(node.dataset.motionObserved)return;
+   node.dataset.motionObserved='true';
+   if(!reduce.matches && activeObserver){
+    node.style.setProperty('--reveal-delay',Math.min(index%4,3)*70+'ms');
+    node.classList.add('motion-in');activeObserver.observe(node);
+   }else{node.classList.add('motion-visible');}
+  });
  }
+ function configureReveal(){
+  if(activeObserver)activeObserver.disconnect();
+  activeObserver=null;
+  if(!reduce.matches && 'IntersectionObserver' in window){
+   activeObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+    if(entry.isIntersecting){entry.target.classList.add('motion-visible');activeObserver.unobserve(entry.target);}
+   }),{threshold:.06,rootMargin:'0px 0px -12px 0px'});
+  }
+  document.querySelectorAll(targets).forEach(n=>{delete n.dataset.motionObserved;});
+  register(document);
+ }
+ function updateScroll(){
+  frame=0;
+  const max=root.scrollHeight-innerHeight;
+  root.style.setProperty('--page-progress',max>0?Math.min(1,Math.max(0,scrollY/max)):0);
+  const rect=hero.getBoundingClientRect();
+  const travel=Math.max(0,Math.min(hero.offsetHeight,-rect.top));
+  const moving=!reduce.matches;
+  hero.style.setProperty('--contour-y',moving?Math.min(travel*.1,80)+'px':'0px');
+  hero.style.setProperty('--heading-y',moving?Math.min(travel*.035,30)+'px':'0px');
+  hero.style.setProperty('--object-y',moving?Math.min(travel*.075,60)+'px':'0px');
+  hero.style.setProperty('--orbit-rotation',moving?Math.min(travel*.018,18)+'deg':'0deg');
+  const sr=schedule.getBoundingClientRect();
+  const progress=Math.max(0,Math.min(1,(innerHeight-sr.top)/(innerHeight+sr.height)));
+  schedule.style.setProperty('--section-turn',moving?progress*85+'deg':'0deg');
+  schedule.style.setProperty('--watermark-x',moving?((progress-.5)*65)+'px':'0px');
+ }
+ function requestUpdate(){if(!frame)frame=requestAnimationFrame(updateScroll);}
+ window.addEventListener('scroll',requestUpdate,{passive:true});
+ window.addEventListener('resize',requestUpdate,{passive:true});
+ if(window.matchMedia('(hover:hover) and (pointer:fine)').matches){
+  sculpture.addEventListener('pointermove',e=>{
+   if(reduce.matches)return;
+   const r=sculpture.getBoundingClientRect();
+   sculpture.style.setProperty('--pointer-tilt',((e.clientX-r.left)/r.width-.5)*5+'deg');
+  });
+  sculpture.addEventListener('pointerleave',()=>sculpture.style.setProperty('--pointer-tilt','0deg'));
+ }
+ // New course rows arrive after the live calendar request.
+ const changes=new MutationObserver(()=>{register(document.querySelector('#events'));requestUpdate();});
+ changes.observe(document.querySelector('#events'),{childList:true});
+ reduce.addEventListener('change',()=>{configureReveal();requestUpdate();});
+ configureReveal();requestUpdate();
 })();
+
 </script>
 </body></html>
