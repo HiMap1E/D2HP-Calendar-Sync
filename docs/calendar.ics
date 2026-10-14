@@ -1856,6 +1856,30 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-165@ca
+ lendar.local
+CREATED:20261014T155703Z
+DTSTAMP:20261014T171920Z
+LAST-MODIFIED:20261014T171920Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Paris:20261110T154500
+DTEND;TZID=Europe/Paris:20261110T174500
+SUMMARY:TU 00 - Updates Tutorials Molecular Biology
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: Updates Tutorials Molecular Biology\nLecturer: D. Bonte and E. Morel
+ \nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-holiday-20261111-fLA_
  Y4jYwYjy@calendar.local
 CREATED:20261012T080038Z
@@ -2408,6 +2432,30 @@ DESCRIPTION:Module: TU 01: Introduction to research and entrepreneurship\nS
  ession: Methodology II\nLecturer: Dorine BONTE and Eric MOREL\nBuilding: H
  M4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-219@ca
+ lendar.local
+CREATED:20261014T171920Z
+DTSTAMP:20261014T171920Z
+LAST-MODIFIED:20261014T171920Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261127T111500
+DTEND;TZID=Europe/Paris:20261127T114500
+SUMMARY:TU 00 - EXAM
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: EXAM\nLecturer: Dorine BONTE and Eric MOREL\nBuilding: HM4\nRoom: 14
+ 02a/b
+CATEGORIES:Exam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
