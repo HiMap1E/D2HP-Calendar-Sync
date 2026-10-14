@@ -698,9 +698,9 @@ html[data-theme="dark"]:not(:lang(el)) body{background:var(--dark-bg);color:var(
 html[data-theme="dark"]:not(:lang(el)) .hero,html[data-theme="dark"]:not(:lang(el)) .subscribe{--olive:#edf0e7;background:var(--dark-bg);color:var(--dark-text)}
 html[data-theme="dark"]:not(:lang(el)) .subscribe{background:var(--dark-bg)}
 html[data-theme="dark"]:not(:lang(el)) .schedule{background:#171c14;color:var(--dark-text)}
-html[data-theme="dark"]:not(:lang(el)) .principle{background:#12170f;color:var(--dark-text)}
+html[data-theme="dark"]:not(:lang(el)) .principle{background:var(--charcoal);color:var(--dark-text)}
 html[data-theme="dark"]:not(:lang(el)) .about{background:var(--charcoal);color:var(--dark-text)}
-html[data-theme="dark"]:not(:lang(el)) .footer{background:#0c100a;color:var(--dark-text)}
+html[data-theme="dark"]:not(:lang(el)) .footer{background:var(--charcoal);color:var(--dark-text)}
 html[data-theme="dark"]:not(:lang(el)) .header .masthead,html[data-theme="dark"]:not(:lang(el)) .header[data-tone] .masthead{color:var(--dark-text)}
 html[data-theme="dark"]:not(:lang(el)) .menu-button{background:var(--dark-panel);border-color:var(--dark-border)}
 html[data-theme="dark"]:not(:lang(el)) .menu-button span{background:var(--dark-text)}
@@ -770,7 +770,7 @@ html[data-theme="dark"] #connect-title > span:not([data-cjk-glyphs]):not([data-r
 @property --mode-border{syntax:"<color>";inherits:true;initial-value:#555b4a}
 @property --mode-muted{syntax:"<color>";inherits:true;initial-value:#282d22}
 :root{--mode-page-bg:var(--white);--mode-page-ink:var(--olive);--mode-course-bg:var(--olive);--mode-footer-bg:var(--charcoal);--mode-header-ink:#000000;--mode-ticker-bg:var(--lime);--mode-ticker-ink:var(--olive);--mode-calendar-bg:var(--lime);--mode-calendar-ink:var(--olive);--mode-control-bg:var(--white);--mode-button-bg:var(--olive);--mode-button-ink:var(--lime);--mode-button-alt-ink:var(--olive);--mode-dialog-card-bg:var(--lime);--mode-border:var(--line);--mode-muted:var(--olive);}
-html[data-theme="dark"]{--mode-page-bg:var(--charcoal);--mode-page-ink:#edf0e7;--mode-course-bg:#171c14;--mode-footer-bg:#0c100a;--mode-header-ink:#edf0e7;--mode-ticker-bg:#26321b;--mode-ticker-ink:var(--lime);--mode-calendar-bg:#26331b;--mode-calendar-ink:var(--lime);--mode-control-bg:#1a1c18;--mode-button-bg:var(--lime);--mode-button-ink:#20271a;--mode-button-alt-ink:var(--lime);--mode-dialog-card-bg:#252f1d;--mode-border:#4a5541;--mode-muted:#b2bbaa;}
+html[data-theme="dark"]{--mode-page-bg:var(--charcoal);--mode-page-ink:#edf0e7;--mode-course-bg:#171c14;--mode-footer-bg:var(--charcoal);--mode-header-ink:#edf0e7;--mode-ticker-bg:#26321b;--mode-ticker-ink:var(--lime);--mode-calendar-bg:#26331b;--mode-calendar-ink:var(--lime);--mode-control-bg:#1a1c18;--mode-button-bg:var(--lime);--mode-button-ink:#20271a;--mode-button-alt-ink:var(--lime);--mode-dialog-card-bg:#252f1d;--mode-border:#4a5541;--mode-muted:#b2bbaa;}
 html.theme-ready{transition:--mode-page-bg .4s ease-in-out,--mode-page-ink .4s ease-in-out,--mode-course-bg .4s ease-in-out,--mode-footer-bg .4s ease-in-out,--mode-header-ink .4s ease-in-out,--mode-ticker-bg .4s ease-in-out,--mode-ticker-ink .4s ease-in-out,--mode-calendar-bg .4s ease-in-out,--mode-calendar-ink .4s ease-in-out,--mode-control-bg .4s ease-in-out,--mode-button-bg .4s ease-in-out,--mode-button-ink .4s ease-in-out,--mode-button-alt-ink .4s ease-in-out,--mode-dialog-card-bg .4s ease-in-out,--mode-border .4s ease-in-out,--mode-muted .4s ease-in-out,--mode-calendar-highlight .4s ease-in-out,--mode-calendar-shade .4s ease-in-out,--mode-calendar-border .4s ease-in-out,--mode-calendar-divider .4s ease-in-out,--mode-calendar-inset .4s ease-in-out,--mode-calendar-back .4s ease-in-out,--mode-calendar-back-border .4s ease-in-out,--mode-calendar-back-shadow .4s ease-in-out,--mode-calendar-ring-border .4s ease-in-out,--mode-calendar-tag-one-bg .4s ease-in-out,--mode-calendar-tag-one-ink .4s ease-in-out,--mode-calendar-tag-one-border .4s ease-in-out,--mode-calendar-tag-two-bg .4s ease-in-out,--mode-calendar-tag-two-ink .4s ease-in-out,--mode-calendar-tag-two-border .4s ease-in-out,--mode-calendar-floor-shadow .4s ease-in-out,--mode-subscription-accent .4s ease-in-out,--mode-halo-border .4s ease-in-out,--mode-halo-dot .4s ease-in-out,--mode-halo-dot-border .4s ease-in-out}
 html[data-theme]:not(:lang(el)) body{background:var(--mode-page-bg);color:var(--mode-page-ink)}
 html[data-theme]:not(:lang(el)) .hero,html[data-theme]:not(:lang(el)) .subscribe{--olive:var(--mode-page-ink);background:var(--mode-page-bg);color:var(--mode-page-ink)}
@@ -901,10 +901,10 @@ html:lang(zh-CN) :is(p,small,.info > strong,.hero-event h3,.when,.blank):not(:ha
  .schedule .event > .time{grid-column:3;grid-row:1;justify-self:end;flex-direction:column;align-items:center;gap:7px;padding:13px 18px;margin-top:4px}
 }
 
-/* Larger masthead lettering; its measured slide offsets update automatically. */
-html .header .masthead a{font-size:24px}
-html .header .masthead small{font-size:10px}
-@media(max-width:700px){html .header .masthead a{font-size:clamp(13px,4vw,18px)}html .header .masthead small{font-size:8px}}
+/* Midpoint masthead sizing; measured slide offsets update automatically. */
+html .header .masthead a{font-size:22px}
+html .header .masthead small{font-size:9.5px}
+@media(max-width:700px){html .header .masthead a{font-size:clamp(12px,3.75vw,16.5px)}html .header .masthead small{font-size:7.5px}}
 </style><!--
 Embedded Chinese glyph subsets derived from Adobe Source Han Sans and Source Han Serif. Internal families renamed D2HP Chinese Sans / Serif.
 Copyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font
@@ -1687,7 +1687,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <a class="nav-cta" href="#subscribe">Subscribe ↗</a>
   <div class="masthead"><a href="#top">D²HP CALENDAR</a><small>PARIS-SACLAY · M1 · 2026/27</small></div>
   <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="menu-panel"><span></span><span></span></button>
-  <nav class="menu-panel" id="menu-panel" aria-label="Main navigation" hidden><a href="#schedule">The classes</a><a href="#subscribe">Get connected</a><a href="#about">The project</a><div class="language-switch" data-language-controls role="group" aria-label="Choose language"><div class="language-options"><button type="button" data-language="en" lang="en" aria-pressed="true">English</button><button type="button" data-language="fr" lang="fr" aria-pressed="false">Français</button><button type="button" data-language="zh-CN" lang="zh-CN" aria-pressed="false">简体中文</button><button type="button" data-language="es" lang="es" aria-pressed="false">Español</button><button type="button" data-language="nl" lang="nl" aria-pressed="false">Nederlands</button><button type="button" data-language="vi" lang="vi" aria-pressed="false">Tiếng Việt</button><button type="button" data-language="hy" lang="hy" aria-pressed="false">Հայերեն</button><button type="button" data-language="ar" lang="ar" dir="rtl" aria-pressed="false">العربية</button><button type="button" data-language="sv" lang="sv" aria-pressed="false">Svenska</button><button type="button" data-language="it" lang="it" aria-pressed="false">Italiano</button><button type="button" data-language="fa" lang="fa" dir="rtl" aria-pressed="false">فارسی</button><button type="button" data-language="uz" lang="uz" aria-pressed="false">O‘zbekcha</button><button type="button" data-language="uk" lang="uk" aria-pressed="false">Українська</button><button type="button" data-language="el" lang="el" aria-pressed="false">Ελληνικά</button></div></div><button type="button" id="theme-toggle" class="theme-toggle" role="switch" aria-checked="false" aria-label="Dark mode"><svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.8 14.3A8.8 8.8 0 0 1 9.7 3.2 8.8 8.8 0 1 0 20.8 14.3Z"/></svg></button></nav>
+  <nav class="menu-panel" id="menu-panel" aria-label="Main navigation" hidden><a href="#schedule">The classes</a><a href="#subscribe">Get connected</a><a href="#about">The project</a><div class="language-switch" data-language-controls role="group" aria-label="Choose language"><div class="language-options"><button type="button" data-language="en" lang="en" aria-pressed="true">English</button><button type="button" data-language="fr" lang="fr" aria-pressed="false">Français</button><button type="button" data-language="zh-CN" lang="zh-CN" aria-pressed="false">简体中文</button><button type="button" data-language="es" lang="es" aria-pressed="false">Español</button><button type="button" data-language="nl" lang="nl" aria-pressed="false">Nederlands</button><button type="button" data-language="vi" lang="vi" aria-pressed="false">Tiếng Việt</button><button type="button" data-language="hy" lang="hy" aria-pressed="false">Հայերեն</button><button type="button" data-language="ar" lang="ar" dir="rtl" aria-pressed="false">العربية</button><button type="button" data-language="sv" lang="sv" aria-pressed="false">Svenska</button><button type="button" data-language="it" lang="it" aria-pressed="false">Italiano</button><button type="button" data-language="fa" lang="fa" dir="rtl" aria-pressed="false">فارسی</button><button type="button" data-language="uz" lang="uz" aria-pressed="false">O‘zbekcha</button><button type="button" data-language="uk" lang="uk" aria-pressed="false">Українська</button></div></div><button type="button" id="theme-toggle" class="theme-toggle" role="switch" aria-checked="false" aria-label="Dark mode"><svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.8 14.3A8.8 8.8 0 0 1 9.7 3.2 8.8 8.8 0 1 0 20.8 14.3Z"/></svg></button></nav>
 </header>
 <main id="top">
 <section class="hero" aria-labelledby="hero-title">
@@ -2288,7 +2288,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label']});
  }
  function selectLanguage(next,refresh=true){
-  language=Object.hasOwn(languageSettings,next)?next:'en';
+  language=next!=='el' && Object.hasOwn(languageSettings,next)?next:'en';
   translatePage();
   try{localStorage.setItem('d2hp-language',language);}catch(_){}
   if(refresh)document.dispatchEvent(new Event('calendar-language-change'));
@@ -2376,6 +2376,39 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
  }
  if(document.fonts?.ready)document.fonts.ready.then(queueAlignment);
  queueAlignment();
+})();
+</script>
+
+<script>
+(() => {
+ const title=document.querySelector('#hero-title');
+ const phone=window.matchMedia('(max-width:700px)');
+ let frame=0;
+ function fitMobileTitle(){
+  frame=0;
+  title.style.removeProperty('font-size');
+  if(!phone.matches)return;
+  const available=title.clientWidth;
+  if(!available)return;
+  const base=parseFloat(getComputedStyle(title).fontSize);
+  const range=document.createRange();range.selectNodeContents(title);
+  const width=()=>range.getBoundingClientRect().width;
+  if(width()<=available)return;
+  // Measure both font families together, including RTL words and glyph wrappers.
+  let low=0,high=base;
+  for(let i=0;i<10;i++){
+   const size=(low+high)/2;
+   title.style.fontSize=size+'px';
+   if(width()<=available-1)low=size;else high=size;
+  }
+  title.style.fontSize=(Math.floor(low*100)/100)+'px';
+ }
+ function queueFit(){if(!frame)frame=requestAnimationFrame(fitMobileTitle);}
+ window.addEventListener('resize',queueFit,{passive:true});
+ document.addEventListener('calendar-language-change',queueFit);
+ if(document.fonts?.ready)document.fonts.ready.then(queueFit);
+ if(document.fonts?.addEventListener)document.fonts.addEventListener('loadingdone',queueFit);
+ queueFit();
 })();
 </script>
 
