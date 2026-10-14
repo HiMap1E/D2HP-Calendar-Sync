@@ -889,20 +889,17 @@ html:is(:lang(ar),:lang(fa)) .ticker,html:is(:lang(ar),:lang(fa)) .ticker-track,
 /* Step badges keep a circular outline regardless of numeral width. */
 .subscribe .step > .num{display:grid;place-items:center;box-sizing:border-box;width:32px;height:32px;min-width:32px;min-height:32px;flex:0 0 32px;padding:0;border-radius:50%;line-height:1;letter-spacing:0}
 
-/* On phones, the time sits beside the date and above the module details. */
-@media(max-width:700px){
- .schedule .event > .date{grid-column:1;grid-row:1 / span 2}
- .schedule .event > .time{grid-column:2;grid-row:1;justify-self:start;flex-direction:row;align-items:baseline;gap:8px;white-space:nowrap}
- .schedule .event > .info{grid-column:2;grid-row:2}
-}
 
-/* Plain mobile course clocks use tighter vertical spacing. */
-@media(max-width:700px){
- .schedule .event > .time{border:0!important;background:transparent!important;padding:2px 0;margin:0}
- .schedule .event{row-gap:8px}
-}
 /* Western-only content stays left aligned within the Chinese interface. */
 html:lang(zh-CN) :is(p,small,.info > strong,.hero-event h3,.when,.blank):not(:has([data-cjk-glyphs])){text-align:left;text-align-last:auto;text-justify:auto}
+
+/* Phone course times return to the right-hand column and desktop card style. */
+@media(max-width:700px){
+ .schedule .event{grid-template-columns:43px minmax(0,1fr) auto;column-gap:12px;row-gap:16px}
+ .schedule .event > .date{grid-column:1;grid-row:1}
+ .schedule .event > .info{grid-column:2;grid-row:1}
+ .schedule .event > .time{grid-column:3;grid-row:1;justify-self:end;flex-direction:column;align-items:center;gap:7px;padding:13px 18px;margin-top:4px}
+}
 </style><!--
 Embedded Chinese glyph subsets derived from Adobe Source Han Sans and Source Han Serif. Internal families renamed D2HP Chinese Sans / Serif.
 Copyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font
