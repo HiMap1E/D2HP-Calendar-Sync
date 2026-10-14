@@ -900,6 +900,11 @@ html:lang(zh-CN) :is(p,small,.info > strong,.hero-event h3,.when,.blank):not(:ha
  .schedule .event > .info{grid-column:2;grid-row:1}
  .schedule .event > .time{grid-column:3;grid-row:1;justify-self:end;flex-direction:column;align-items:center;gap:7px;padding:13px 18px;margin-top:4px}
 }
+
+/* Larger masthead lettering; its measured slide offsets update automatically. */
+html .header .masthead a{font-size:24px}
+html .header .masthead small{font-size:10px}
+@media(max-width:700px){html .header .masthead a{font-size:clamp(13px,4vw,18px)}html .header .masthead small{font-size:8px}}
 </style><!--
 Embedded Chinese glyph subsets derived from Adobe Source Han Sans and Source Han Serif. Internal families renamed D2HP Chinese Sans / Serif.
 Copyright 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font
