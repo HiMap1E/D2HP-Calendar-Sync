@@ -2549,12 +2549,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 </script>
 <script>
 (() => {
- const link=document.querySelector('.header .nav-cta');
- const target=document.querySelector('#subscribe');
+ const links=document.querySelectorAll('.header .nav-cta,.header .menu-panel a[href^="#"],.header .masthead a[href^="#"]');
  const root=document.documentElement;
  let cancelCurrent=null;
- link.addEventListener('click',event=>{
+ links.forEach(link=>link.addEventListener('click',event=>{
   if(event.button!==0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey)return;
+  const target=document.getElementById(link.hash.slice(1));
+  if(!target)return;
   event.preventDefault();
   if(cancelCurrent)cancelCurrent();
   const initialBehavior=root.style.scrollBehavior;
@@ -2566,7 +2567,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   if(matchMedia('(prefers-reduced-motion: reduce)').matches){
    window.scrollTo({top:end,behavior:'auto'});root.style.scrollBehavior=initialBehavior;setHash();return;
   }
-  const duration=1000;
+  const duration=link.classList.contains('nav-cta')?1000:1500;
   let frame=0,started=null;
   const keys=new Set(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' ']);
   function onKey(event){if(keys.has(event.key))cancel();}
@@ -2592,7 +2593,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
    else{clean();setHash();}
   }
   frame=requestAnimationFrame(tick);
- });
+ }));
 })();
 </script>
 <script>
