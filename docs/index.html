@@ -3074,13 +3074,102 @@ const googleHeadings={es:['Agregar a','Google Calendar.'],sv:['Lägg till i Goog
 <script>
 (() => {
   const read=()=>{try{return localStorage.getItem('d2hp-analytics-consent');}catch(_){return null;}};
+  const track=(name,params)=>{if(read()==='denied'||typeof gtag!=='function')return;gtag('event',name,params);};
   const apps={'apple':'a[href^="webcal:"]','google':'a[href*="calendar.google.com"]'};
   document.addEventListener('click',event=>{
-    if(read()==='denied')return;
+    const target=event.target;
+    if(!target||!target.closest)return;
     for(const [app,selector] of Object.entries(apps)){
-      if(event.target.closest(selector)){gtag('event','subscribe_click',{calendar_app:app});break;}
+      if(target.closest(selector)){
+        track('subscribe_click',{calendar_app:app,button_location:target.closest('.subscription-shortcuts')?'subscribe_section':'hero'});
+        return;
+      }
     }
+    const language=target.closest('[data-language]');
+    if(language){track('language_select',{language:language.dataset.language});return;}
+    if(target.closest('#theme-toggle')){
+      setTimeout(()=>track('theme_toggle',{theme:document.documentElement.dataset.theme==='dark'?'dark':'light'}),100);
+      return;
+    }
+    if(target.closest('.suggestion-accept')){track('language_suggestion',{choice:'switch'});return;}
+    if(target.closest('.suggestion-keep,.suggestion-close')){track('language_suggestion',{choice:'keep_english'});return;}
+    if(target.closest('#menu-button')){track('menu_toggle');return;}
+    const nav=target.closest('.nav-cta,.menu-panel a');
+    if(nav){track('nav_click',{destination:nav.getAttribute('href')});}
   });
+})();
+</script>
+<script>
+(() => {
+  const read=()=>{try{return localStorage.getItem('d2hp-analytics-consent');}catch(_){return null;}};
+  const track=(name,params)=>{if(read()==='denied'||typeof gtag!=='function')return;gtag('event',name,params);};
+
+  // 1) Which sections visitors actually reach (once per section per visit).
+  if('IntersectionObserver' in window){
+    const sections={hero:'.hero',schedule:'#schedule',subscribe:'#subscribe',how:'#how',about:'#about'};
+    const seen=new Set();
+    const observer=new IntersectionObserver(entries=>{
+      for(const entry of entries){
+        if(!entry.isIntersecting)continue;
+        const name=entry.target.dataset.trackSection;
+        if(seen.has(name))continue;
+        seen.add(name);observer.unobserve(entry.target);
+        track('section_view',{section:name});
+      }
+    },{threshold:0.3});
+    for(const [name,selector] of Object.entries(sections)){
+      const element=document.querySelector(selector);
+      if(element){element.dataset.trackSection=name;observer.observe(element);}
+    }
+  }
+
+  // 2) Browser language versus the language the page is shown in.
+  const browserLanguage=(navigator.languages&&navigator.languages[0])||navigator.language||'unknown';
+  track('page_context',{browser_language:String(browserLanguage).slice(0,20),page_language:String(document.documentElement.lang||'unknown').slice(0,20)});
+
+  // 3) JavaScript errors (type, short message and file name only; at most 5 per visit).
+  let errorCount=0;
+  const reportError=(kind,message,source,line)=>{
+    if(errorCount>=5)return;errorCount++;
+    track('js_error',{error_type:kind,error_message:String(message||'unknown').slice(0,100),error_source:String(source||'').split('/').pop().slice(0,60),error_line:Number(line)||0});
+  };
+  window.addEventListener('error',event=>{if(event.message)reportError('error',event.message,event.filename,event.lineno);});
+  window.addEventListener('unhandledrejection',event=>{
+    const reason=event.reason;
+    reportError('promise',reason&&reason.message?reason.message:String(reason));
+  });
+
+  // 5) Core Web Vitals, measured with the browser's own PerformanceObserver and sent once when the page is hidden.
+  const vitals={};
+  const watch=(type,callback,options)=>{
+    try{new PerformanceObserver(list=>list.getEntries().forEach(callback)).observe(Object.assign({type,buffered:true},options||{}));}catch(_){}
+  };
+  watch('largest-contentful-paint',entry=>{vitals.lcp=entry.startTime;});
+  watch('paint',entry=>{if(entry.name==='first-contentful-paint')vitals.fcp=entry.startTime;});
+  let sessionValue=0,sessionEntries=[],clsValue=0;
+  watch('layout-shift',entry=>{
+    if(entry.hadRecentInput)return;
+    const first=sessionEntries[0],last=sessionEntries[sessionEntries.length-1];
+    if(sessionEntries.length&&entry.startTime-last.startTime<1000&&entry.startTime-first.startTime<5000){sessionValue+=entry.value;sessionEntries.push(entry);}
+    else{sessionValue=entry.value;sessionEntries=[entry];}
+    if(sessionValue>clsValue){clsValue=sessionValue;vitals.cls=clsValue;}
+  });
+  watch('event',entry=>{if(entry.interactionId&&(vitals.inp===undefined||entry.duration>vitals.inp))vitals.inp=entry.duration;},{durationThreshold:40});
+  try{const nav=performance.getEntriesByType('navigation')[0];if(nav)vitals.ttfb=nav.responseStart;}catch(_){}
+  let sent=false;
+  const sendVitals=force=>{
+    if(sent||(force!==true&&document.visibilityState!=='hidden'))return;
+    const params={transport_type:'beacon'};
+    if(vitals.lcp!==undefined)params.lcp_ms=Math.round(vitals.lcp);
+    if(vitals.fcp!==undefined)params.fcp_ms=Math.round(vitals.fcp);
+    if(vitals.ttfb!==undefined)params.ttfb_ms=Math.round(vitals.ttfb);
+    if(vitals.inp!==undefined)params.inp_ms=Math.round(vitals.inp);
+    if(vitals.cls!==undefined)params.cls_x1000=Math.round(vitals.cls*1000);
+    if(Object.keys(params).length<2)return;
+    sent=true;track('web_vitals',params);
+  };
+  document.addEventListener('visibilitychange',()=>sendVitals());
+  window.addEventListener('pagehide',()=>sendVitals(true));
 })();
 </script>
 </body></html>
