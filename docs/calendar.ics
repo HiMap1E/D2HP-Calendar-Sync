@@ -1667,17 +1667,42 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-155@ca
+ lendar.local
+CREATED:20261019T123204Z
+DTSTAMP:20261019T123204Z
+LAST-MODIFIED:20261019T123204Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261106T161500
+DTEND;TZID=Europe/Paris:20261106T174500
+SUMMARY:TU 00 - Updates Molecular Biology + Virology
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: Updates Molecular Biology + Virology\nLecturer: Dorine BONTE\nBuildi
+ ng: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-158@ca
  lendar.local
 CREATED:20261016T144337Z
-DTSTAMP:20261016T144337Z
-LAST-MODIFIED:20261016T144337Z
-SEQUENCE:0
+DTSTAMP:20261019T123204Z
+LAST-MODIFIED:20261019T123204Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Paris:20261109T091500
 DTEND;TZID=Europe/Paris:20261109T104500
-SUMMARY:TU 08 - Viral vectors
-DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Viral vectors\nLecture
- r: D Bonte\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+SUMMARY:TU 00 - Updates Virology
+DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
+ sion: Updates Virology\nLecturer: D Bonte\nBuilding: HM4\nRoom: 1402a/b\nV
+ alidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2222,6 +2247,29 @@ SUMMARY:TU 03 - Impact of glucocorticoids on metabolic disorders and aging
 DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
  ne to drug discovery\nSession: Impact of glucocorticoids on metabolic diso
  rders and aging\nLecturer: Carine BEAUPERE\nBuilding: HM4\nRoom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-193@ca
+ lendar.local
+CREATED:20261019T124548Z
+DTSTAMP:20261019T124548Z
+LAST-MODIFIED:20261019T124548Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261119T114500
+DTEND;TZID=Europe/Paris:20261119T131500
+SUMMARY:TU 08 - Viral vectors
+DESCRIPTION:Module: TU 08: Biotechnology I\nSession: Viral vectors\nLecture
+ r: Dorine BONTE\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
