@@ -959,122 +959,102 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-104@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261022T082750Z
+LAST-MODIFIED:20261022T082750Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261022T093000
 DTEND;TZID=Europe/Paris:20261022T123000
 SUMMARY:TU 06 - Lecture 7: Formulation and solid forms III
 DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 7
- : Formulation and solid forms III\nLecturer: Jean-Philippe MICHEL\nBuildin
- g: HM4\nRoom: 1402a/b\nValidation: validated
+ : Formulation and solid forms III\nLecturer: Jean-Philippe MICHEL\nRoom: v
+ isio\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-106@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261022T082750Z
+LAST-MODIFIED:20261022T082750Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261022T140000
 DTEND;TZID=Europe/Paris:20261022T153000
 SUMMARY:TU 05 - Lecture 7 : Migration\, polarity\, EMT\, metastasis
 DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 7 : Migrat
- ion\, polarity\, EMT\, metastasis\nLecturer: Béatrice BENOIT\nBuilding: H
- M4\nRoom: 1402a/b\nValidation: validated
+ ion\, polarity\, EMT\, metastasis\nLecturer: Béatrice BENOIT\nRoom: visio
+ \nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-107@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261022T082750Z
+LAST-MODIFIED:20261022T082750Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261022T154500
 DTEND;TZID=Europe/Paris:20261022T171500
 SUMMARY:TU 05 - Lecture 8 : Regulated cell deaths and cancer
 DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 8 : Regula
- ted cell deaths and cancer\nLecturer: Béatrice BENOIT\nBuilding: HM4\nRoo
- m: 1402a/b\nValidation: validated
+ ted cell deaths and cancer\nLecturer: Béatrice BENOIT\nRoom: visio\nValid
+ ation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-108@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261022T082750Z
+LAST-MODIFIED:20261022T082750Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261023T084500
 DTEND;TZID=Europe/Paris:20261023T101500
 SUMMARY:TU 04 - Physiopath/ diagnosis allergic diseases
 DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Physiopath
- / diagnosis allergic diseases\nLecturer: Viviana MARIN-ESTEBAN\nBuilding: 
- HM4\nRoom: 1402a/b\nValidation: validated
+ / diagnosis allergic diseases\nLecturer: Viviana MARIN-ESTEBAN\nRoom: visi
+ o\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-110@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261022T082750Z
+LAST-MODIFIED:20261022T082750Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261023T140000
 DTEND;TZID=Europe/Paris:20261023T153000
 SUMMARY:TU 05 - Lecture 9 : Metabolic reprogramming and angiosenesis in can
  cer
 DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Lecture 9 : Metabo
- lic reprogramming and angiosenesis in cancer\nLecturer: Christian POÜS\nB
- uilding: HM4\nRoom: 1402a/b\nValidation: validated
+ lic reprogramming and angiosenesis in cancer\nLecturer: Christian POÜS\nR
+ oom: visio\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-114@ca
