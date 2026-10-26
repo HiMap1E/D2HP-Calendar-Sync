@@ -1127,30 +1127,6 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-118@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
-DTSTART;TZID=Europe/Paris:20261027T093000
-DTEND;TZID=Europe/Paris:20261027T123000
-SUMMARY:OTU 05 - Preparation to Practical Works
-DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Preparatio
- n to Practical Works\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom:
-  4208 a/b
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM2 4208 a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
- 2.17382
-END:VEVENT
-BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-120@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -1355,30 +1331,6 @@ SUMMARY:TU 04 - Thromboembolic disease and treatments
 DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Thromboemb
  olic disease and treatments\nLecturer: Elsa BIANCHINI\nBuilding: HM4\nRoom
  : 1402a/b\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
-END:VEVENT
-BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-132@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
-DTSTART;TZID=Europe/Paris:20261030T140000
-DTEND;TZID=Europe/Paris:20261030T160000
-SUMMARY:TU 04 - Anemia\, example of sickle cell disease
-DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Anemia\, e
- xample of sickle cell disease\nLecturer: Claire AUDITEAU\nBuilding: HM4\nR
- oom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2201,6 +2153,30 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-190@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261026T135208Z
+LAST-MODIFIED:20261026T135208Z
+SEQUENCE:3
+DTSTART;TZID=Europe/Paris:20261118T140000
+DTEND;TZID=Europe/Paris:20261118T160000
+SUMMARY:TU 04 - Anemia\, example of sickle cell disease
+DESCRIPTION:Module: TU 04: Hemato- and Immunopathology\nSession: Anemia\, e
+ xample of sickle cell disease\nLecturer: Claire AUDITEAU\nBuilding: HM4\nR
+ oom: 1402a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-192@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -2711,30 +2687,6 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-248@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
-DTSTART;TZID=Europe/Paris:20261207T133000
-DTEND;TZID=Europe/Paris:20261207T174500
-SUMMARY:OTU 05 - Practical Work Matrix group 1
-DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
- Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
- 4208 a/b\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM2 4208 a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
- 2.17382
-END:VEVENT
-BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-250@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -2815,30 +2767,6 @@ LAST-MODIFIED:20261012T085612Z
 SEQUENCE:5
 DTSTART;TZID=Europe/Paris:20261209T133000
 DTEND;TZID=Europe/Paris:20261209T174500
-SUMMARY:OTU 05 - Practical Work Matrix group 1
-DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
- Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
- 4208 a/b\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM2 4208 a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
- 2.17382
-END:VEVENT
-BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-260@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
-DTSTART;TZID=Europe/Paris:20261210T130000
-DTEND;TZID=Europe/Paris:20261210T171500
 SUMMARY:OTU 05 - Practical Work Matrix group 1
 DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
  Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
