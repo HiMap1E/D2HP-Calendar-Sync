@@ -1394,15 +1394,17 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-137@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261013T072518Z
-LAST-MODIFIED:20261013T072518Z
-SEQUENCE:6
+DTSTAMP:20261026T120441Z
+LAST-MODIFIED:20261026T120441Z
+SEQUENCE:7
 DTSTART;TZID=Europe/Paris:20261102T100000
 DTEND;TZID=Europe/Paris:20261102T120000
-SUMMARY:TU 03 - Cardiac electrophysiology
+SUMMARY:TU 03 - Cardiac electrophysiology and Excitation-Contraction Coupli
+ ng
 DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
- ne to drug discovery\nSession: Cardiac electrophysiology\nLecturer: Romain
-  PERRIER\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+ ne to drug discovery\nSession: Cardiac electrophysiology and Excitation-Co
+ ntraction Coupling\nLecturer: Romain PERRIER\nBuilding: HM4\nRoom: 1402a/b
+ \nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
