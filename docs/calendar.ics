@@ -1441,30 +1441,6 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-148@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
-DTSTART;TZID=Europe/Paris:20261105T093000
-DTEND;TZID=Europe/Paris:20261105T123000
-SUMMARY:TU 06 - Lecture 8: Preformulation of liquid forms
-DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 8
- : Preformulation of liquid forms\nLecturer: Jean-Philippe MICHEL\nBuilding
- : HM4\nRoom: 1402a/b\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
-END:VEVENT
-BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-154@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -1725,15 +1701,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-170@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261104T115923Z
+LAST-MODIFIED:20261104T115923Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261112T093000
 DTEND;TZID=Europe/Paris:20261112T123000
-SUMMARY:TU 06 - Lecture 9: Formulation of liquid forms
-DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 9
- : Formulation of liquid forms\nLecturer: Jean-Philippe MICHEL\nBuilding: H
- M4\nRoom: 1402a/b\nValidation: validated
+SUMMARY:TU 06 - Lecture 8: Preformulation of liquid forms
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 8
+ : Preformulation of liquid forms\nLecturer: Jean-Philippe MICHEL\nBuilding
+ : HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1988,15 +1964,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-184@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261104T115923Z
+LAST-MODIFIED:20261104T115923Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261117T093000
 DTEND;TZID=Europe/Paris:20261117T123000
-SUMMARY:TU 06 - Case study 1: Articles reading and strategy
-DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
- y 1: Articles reading and strategy\nLecturer: Jean-Philippe MICHEL\nBuildi
- ng: HM4\nRoom: 1402a/b\nValidation: validated
+SUMMARY:TU 06 - Lecture 9: Formulation of liquid forms
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Lecture 9
+ : Formulation of liquid forms\nLecturer: Jean-Philippe MICHEL\nBuilding: H
+ M4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2036,15 +2012,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-188@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261104T115923Z
+LAST-MODIFIED:20261104T115923Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261118T093000
 DTEND;TZID=Europe/Paris:20261118T123000
-SUMMARY:TU 06 - Case study 2: Preformulation
+SUMMARY:TU 06 - Case study 1: Articles reading and strategy
 DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
- y 2: Preformulation\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 
- 1402a/b\nValidation: validated
+ y 1: Articles reading and strategy\nLecturer: Jean-Philippe MICHEL\nBuildi
+ ng: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2154,15 +2130,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-196@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261104T115923Z
+LAST-MODIFIED:20261104T115923Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261120T093000
 DTEND;TZID=Europe/Paris:20261120T123000
-SUMMARY:TU 06 - Case study 3: Formulation
+SUMMARY:TU 06 - Case study 2: Preformulation
 DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
- y 3: Formulation\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 140
- 2a/b\nValidation: validated
+ y 2: Preformulation\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 
+ 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2325,15 +2301,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-224@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261104T115923Z
+LAST-MODIFIED:20261104T115923Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261130T093000
 DTEND;TZID=Europe/Paris:20261130T123000
-SUMMARY:TU 06 - Case study 4: Controls and report writing
+SUMMARY:TU 06 - Case study 3: Formulation
 DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
- y 4: Controls and report writing\nLecturer: Jean-Philippe MICHEL\nBuilding
- : HM4\nRoom: 1402a/b\nValidation: validated
+ y 3: Formulation\nLecturer: Jean-Philippe MICHEL\nBuilding: HM4\nRoom: 140
+ 2a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2669,6 +2645,30 @@ DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
  ne to drug discovery\nSession: Immunology of major organs to identify targ
  ets for immunotherapy\nLecturer: Virginie TARDIF\nBuilding: HM4\nRoom: 140
  2 a\nValidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402 a
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402 a":geo:48.71177,2.
+ 17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-261@ca
+ lendar.local
+CREATED:20261104T115923Z
+DTSTAMP:20261104T115923Z
+LAST-MODIFIED:20261104T115923Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261210T133000
+DTEND;TZID=Europe/Paris:20261210T163000
+SUMMARY:TU 06 - Case study 4: Controls and report writing
+DESCRIPTION:Module: TU 06: Pharmaceutical Engineering I\nSession: Case stud
+ y 4: Controls and report writing\nLecturer: Jean-Philippe Michel\nBuilding
+ : HM4\nRoom: 1402 a\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
