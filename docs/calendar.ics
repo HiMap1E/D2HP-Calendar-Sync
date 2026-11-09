@@ -1604,30 +1604,6 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-165@ca
- lendar.local
-CREATED:20261014T155703Z
-DTSTAMP:20261014T171920Z
-LAST-MODIFIED:20261014T171920Z
-SEQUENCE:1
-DTSTART;TZID=Europe/Paris:20261110T154500
-DTEND;TZID=Europe/Paris:20261110T174500
-SUMMARY:TU 00 - Updates Tutorials Molecular Biology
-DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
- sion: Updates Tutorials Molecular Biology\nLecturer: D. Bonte and E. Morel
- \nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
-END:VEVENT
-BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-holiday-20261111-fLA_
  Y4jYwYjy@calendar.local
 CREATED:20261012T080038Z
@@ -1776,30 +1752,6 @@ SUMMARY:TU 09 - A: Drug  analysis (Analysis of chiral substances)
 DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Drug  analysis 
  (Analysis of chiral substances)\nLecturer: T. TRAN\nBuilding: HM4\nRoom: 1
  402a/b\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
-END:VEVENT
-BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-177@ca
- lendar.local
-CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
-DTSTART;TZID=Europe/Paris:20261113T154500
-DTEND;TZID=Europe/Paris:20261113T164500
-SUMMARY:TU 09 - A: Tutorial 4: Electrophoresis exercices
-DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Tutorial 4: Ele
- ctrophoresis exercices\nLecturer: T. TRAN\nBuilding: HM4\nRoom: 1402a/b\nV
- alidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2007,15 +1959,16 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-192@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261109T104710Z
+LAST-MODIFIED:20261109T104710Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261119T100000
 DTEND;TZID=Europe/Paris:20261119T113000
 SUMMARY:TU 03 - Impact of glucocorticoids on metabolic disorders and aging
 DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
  ne to drug discovery\nSession: Impact of glucocorticoids on metabolic diso
- rders and aging\nLecturer: Carine BEAUPERE\nBuilding: HM4\nRoom: 1402a/b
+ rders and aging\nLecturer: Carine BEAUPERE\nBuilding: HM4\nRoom: 1402a/b\n
+ Validation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2063,6 +2016,32 @@ SUMMARY:TU 05 - Written exam
 DESCRIPTION:Module: TU 05: Cancer cell biology\nSession: Written exam\nLect
  urer: Anita BAILLET\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Exam
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-195@ca
+ lendar.local
+CREATED:20261109T104710Z
+DTSTAMP:20261109T145541Z
+LAST-MODIFIED:20261109T145541Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Paris:20261119T160000
+DTEND;TZID=Europe/Paris:20261119T180000
+SUMMARY:TU 03 - Autonomic Regulation: from molecular mechanisms to clinical
+  therapeutics
+DESCRIPTION:Module: TU 03: Physiopathology of major functions: a cornsersto
+ ne to drug discovery\nSession: Autonomic Regulation: from molecular mechan
+ isms to clinical therapeutics\nLecturer: Monica Rodrigues from University 
+ of Porto\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
@@ -2680,6 +2659,30 @@ GEO:48.71177;2.17382
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402 a":geo:48.71177,2.
  17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-263@ca
+ lendar.local
+CREATED:20261109T104101Z
+DTSTAMP:20261109T104710Z
+LAST-MODIFIED:20261109T104710Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Paris:20261211T110000
+DTEND;TZID=Europe/Paris:20261211T120000
+SUMMARY:TU 09 - A: Tutorial 4: Electrophoresis exercices
+DESCRIPTION:Module: TU 09: Analytical Sciences\nSession: A: Tutorial 4: Ele
+ ctrophoresis exercices\nLecturer: T. TRAN\nBuilding: HM4\nRoom: 1402a/b\nV
+ alidation: validated
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-264@ca
