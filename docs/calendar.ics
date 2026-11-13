@@ -2590,15 +2590,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-256@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261113T125652Z
+LAST-MODIFIED:20261113T125652Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261209T133000
-DTEND;TZID=Europe/Paris:20261209T174500
-SUMMARY:OTU 05 - Practical Work Matrix group 1
-DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
- Work Matrix group 1\nLecturer: Jean-Philippe MICHEL\nBuilding: HM2\nRoom: 
- 4208 a/b\nValidation: validated
+DTEND;TZID=Europe/Paris:20261209T173000
+SUMMARY:OTU 05 - Pratical works for pharmaceutical engineering
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Pratical w
+ orks for pharmaceutical engineering\nLecturer: Jean-Philippe MICHEL\nBuild
+ ing: HM2\nRoom: 4208 a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -2712,15 +2712,15 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-264@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261012T085612Z
-LAST-MODIFIED:20261012T085612Z
-SEQUENCE:5
+DTSTAMP:20261113T125652Z
+LAST-MODIFIED:20261113T125652Z
+SEQUENCE:6
 DTSTART;TZID=Europe/Paris:20261211T133000
-DTEND;TZID=Europe/Paris:20261211T174500
-SUMMARY:OTU 05 - Practical Work Matrix additional group
-DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Practical 
- Work Matrix additional group\nLecturer: Jean-Philippe MICHEL\nBuilding: HM
- 2\nRoom: 4208 a/b\nValidation: validated
+DTEND;TZID=Europe/Paris:20261211T173000
+SUMMARY:OTU 05 - Pratical works for pharmaceutical engineering
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Pratical w
+ orks for pharmaceutical engineering\nLecturer: Jean-Philippe MICHEL\nBuild
+ ing: HM2\nRoom: 4208 a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -3021,6 +3021,54 @@ X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  .17382
 END:VEVENT
 BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-306@ca
+ lendar.local
+CREATED:20261113T125652Z
+DTSTAMP:20261113T125652Z
+LAST-MODIFIED:20261113T125652Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20270108T090000
+DTEND;TZID=Europe/Paris:20270108T123000
+SUMMARY:OTU 05 - Pratical works for pharmaceutical engineering
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Pratical w
+ orks for pharmaceutical engineering\nLecturer: Jean-Philippe MICHEL\nBuild
+ ing: HM2\nRoom: 4208 a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-308@ca
+ lendar.local
+CREATED:20261113T125652Z
+DTSTAMP:20261113T125652Z
+LAST-MODIFIED:20261113T125652Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20270108T133000
+DTEND;TZID=Europe/Paris:20270108T173000
+SUMMARY:OTU 05 - Pratical works for pharmaceutical engineering
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Pratical w
+ orks for pharmaceutical engineering\nLecturer: Jean-Philippe MICHEL\nBuild
+ ing: HM2\nRoom: 4208 a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-314@ca
  lendar.local
 CREATED:20261012T080038Z
@@ -3151,6 +3199,54 @@ GEO:48.71177;2.17382
 X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
  400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
  .17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-328@ca
+ lendar.local
+CREATED:20261012T080038Z
+DTSTAMP:20261113T125652Z
+LAST-MODIFIED:20261113T125652Z
+SEQUENCE:6
+DTSTART;TZID=Europe/Paris:20270115T090000
+DTEND;TZID=Europe/Paris:20270115T123000
+SUMMARY:OTU 05 - Pratical works for pharmaceutical engineering
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Pratical w
+ orks for pharmaceutical engineering\nLecturer: Jean-Philippe MICHEL\nBuild
+ ing: HM2\nRoom: 4208 a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
+END:VEVENT
+BEGIN:VEVENT
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-330@ca
+ lendar.local
+CREATED:20261113T125652Z
+DTSTAMP:20261113T125652Z
+LAST-MODIFIED:20261113T125652Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20270115T133000
+DTEND;TZID=Europe/Paris:20270115T173000
+SUMMARY:OTU 05 - Pratical works for pharmaceutical engineering
+DESCRIPTION:Module: OTU 05: Pharmaceutical engineering\nSession: Pratical w
+ orks for pharmaceutical engineering\nLecturer: Jean-Philippe MICHEL\nBuild
+ ing: HM2\nRoom: 4208 a/b
+CATEGORIES:Class
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
+ dLIDRkaOWAh0/edit
+LOCATION:HM2 4208 a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM2 4208 a/b":geo:48.71177,
+ 2.17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-335@ca
