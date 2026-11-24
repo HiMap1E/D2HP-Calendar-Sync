@@ -2741,19 +2741,25 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-270@ca
  lendar.local
 CREATED:20261013T132306Z
-DTSTAMP:20261013T132306Z
-LAST-MODIFIED:20261013T132306Z
-SEQUENCE:0
+DTSTAMP:20261124T123449Z
+LAST-MODIFIED:20261124T123449Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Paris:20261214T154500
 DTEND;TZID=Europe/Paris:20261214T171500
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+SUMMARY:TU 10 - Introduction - Concepts in environmental health (1)
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Introduction - Concepts in environmental health (1)\nL
+ ecturer: Lucie Oziol\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-274@ca
@@ -2799,184 +2805,225 @@ URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
 END:VEVENT
 BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-281@ca
+UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-276@ca
  lendar.local
-CREATED:20261013T130903Z
-DTSTAMP:20261013T130903Z
-LAST-MODIFIED:20261013T130903Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261217T100000
-DTEND;TZID=Europe/Paris:20261217T120000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+CREATED:20261012T190900Z
+DTSTAMP:20261124T123449Z
+LAST-MODIFIED:20261124T123449Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Paris:20261216T100000
+DTEND;TZID=Europe/Paris:20261216T120000
+SUMMARY:TU 10 - Concepts in environmental health (2)
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Concepts in environmental health (2)\nLecturer: Lucie 
+ Oziol\nBuilding: HM4\nRoom: 1402a/b
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-282@ca
  lendar.local
 CREATED:20261013T130903Z
-DTSTAMP:20261013T130903Z
-LAST-MODIFIED:20261013T130903Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261217T140000
+DTSTAMP:20261124T124122Z
+LAST-MODIFIED:20261124T124122Z
+SEQUENCE:1
+DTSTART;TZID=Europe/Paris:20261217T143000
 DTEND;TZID=Europe/Paris:20261217T160000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+SUMMARY:TU 10 - Environmental Risk Assessment
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Environmental Risk Assessment\nLecturer: Mélanie Lehe
+ up-Foucaud\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-285@ca
  lendar.local
 CREATED:20261013T130903Z
-DTSTAMP:20261013T130903Z
-LAST-MODIFIED:20261013T130903Z
-SEQUENCE:0
+DTSTAMP:20261124T124122Z
+LAST-MODIFIED:20261124T124122Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Paris:20261218T100000
 DTEND;TZID=Europe/Paris:20261218T120000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+SUMMARY:TU 10 - Human Risk Assessment (1) : theory
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Human Risk Assessment (1) : theory\nLecturer: Lucie Oz
+ iol\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-286@ca
  lendar.local
 CREATED:20261013T130903Z
-DTSTAMP:20261013T130903Z
-LAST-MODIFIED:20261013T130903Z
-SEQUENCE:0
+DTSTAMP:20261124T124122Z
+LAST-MODIFIED:20261124T124122Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Paris:20261218T140000
-DTEND;TZID=Europe/Paris:20261218T160000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+DTEND;TZID=Europe/Paris:20261218T173000
+SUMMARY:TU 10 - Human Risk Assessment (2) : theory + case study
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Human Risk Assessment (2) : theory + case study\nLectu
+ rer: Lucie Oziol\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-291@ca
  lendar.local
 CREATED:20261013T132929Z
-DTSTAMP:20261013T132929Z
-LAST-MODIFIED:20261013T132929Z
-SEQUENCE:0
+DTSTAMP:20261124T124628Z
+LAST-MODIFIED:20261124T124628Z
+SEQUENCE:2
 DTSTART;TZID=Europe/Paris:20270104T100000
-DTEND;TZID=Europe/Paris:20270104T120000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+DTEND;TZID=Europe/Paris:20270104T130000
+SUMMARY:TU 10 - Collaborative workshop based on scientific reports to under
+ stand climat issues and propose action.
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Collaborative workshop based on scientific reports to 
+ understand climat issues and propose action.\nLecturer: Véronique Herbret
+ eau / Alexis Wlodarczyk\nBuilding: HM4\nRoom: 1402a/b\nValidation: validat
+ ed
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-292@ca
  lendar.local
 CREATED:20261013T132929Z
-DTSTAMP:20261013T132929Z
-LAST-MODIFIED:20261013T132929Z
-SEQUENCE:0
+DTSTAMP:20261124T124628Z
+LAST-MODIFIED:20261124T124628Z
+SEQUENCE:2
 DTSTART;TZID=Europe/Paris:20270104T140000
 DTEND;TZID=Europe/Paris:20270104T170000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+SUMMARY:TU 10 - Collaborative workshop based on scientific reports to under
+ stand climat issues and propose action.
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Collaborative workshop based on scientific reports to 
+ understand climat issues and propose action.\nLecturer: Véronique Herbret
+ eau / Alexis Wlodarczyk\nBuilding: HM4\nRoom: 1402a/b\nValidation: validat
+ ed
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-295@ca
  lendar.local
 CREATED:20261013T132659Z
-DTSTAMP:20261013T132659Z
-LAST-MODIFIED:20261013T132659Z
-SEQUENCE:0
+DTSTAMP:20261124T124628Z
+LAST-MODIFIED:20261124T124628Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Paris:20270105T100000
 DTEND;TZID=Europe/Paris:20270105T120000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+SUMMARY:TU 10 - Analytical methods in environmental chemistry
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Analytical methods in environmental chemistry\nLecture
+ r: Thomas Thiebault\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-296@ca
  lendar.local
 CREATED:20261013T132659Z
-DTSTAMP:20261013T132751Z
-LAST-MODIFIED:20261013T132751Z
-SEQUENCE:1
+DTSTAMP:20261124T124628Z
+LAST-MODIFIED:20261124T124628Z
+SEQUENCE:2
 DTSTART;TZID=Europe/Paris:20270105T140000
-DTEND;TZID=Europe/Paris:20270105T170000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+DTEND;TZID=Europe/Paris:20270105T160000
+SUMMARY:TU 10 - Assessment of the environmental fate of pharmaceuticals
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Assessment of the environmental fate of pharmaceutical
+ s\nLecturer: Thomas Thiebault\nBuilding: HM4\nRoom: 1402a/b\nValidation: v
+ alidated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
+LOCATION:HM4 1402a/b
+GEO:48.71177;2.17382
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
+ 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
+ .17382
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-299@ca
  lendar.local
 CREATED:20261013T132659Z
-DTSTAMP:20261013T132659Z
-LAST-MODIFIED:20261013T132659Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20270106T100000
-DTEND;TZID=Europe/Paris:20270106T120000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
+DTSTAMP:20261124T125242Z
+LAST-MODIFIED:20261124T125242Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Paris:20270106T093000
+DTEND;TZID=Europe/Paris:20270106T123000
+SUMMARY:TU 10 - Occupational health and safety linked to pharmaceutical dev
+ elopment
 DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
+ velopment\nSession: Occupational health and safety linked to pharmaceutica
+ l development\nLecturer: François Boucard / Caroline Bourne-Guaita\nBuild
+ ing: Institut R&D Servier\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-END:VEVENT
-BEGIN:VEVENT
-UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-300@ca
- lendar.local
-CREATED:20261013T132659Z
-DTSTAMP:20261013T132751Z
-LAST-MODIFIED:20261013T132751Z
-SEQUENCE:1
-DTSTART;TZID=Europe/Paris:20270106T140000
-DTEND;TZID=Europe/Paris:20270106T170000
-SUMMARY:TU 10: Environment - pharmaceuticals and sustainable development
-DESCRIPTION:Module: TU 10: Environment - pharmaceuticals and sustainable de
- velopment\nValidation: validated
-CATEGORIES:Class
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
- dLIDRkaOWAh0/edit
+LOCATION:Institut R&D Servier
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-303@ca
