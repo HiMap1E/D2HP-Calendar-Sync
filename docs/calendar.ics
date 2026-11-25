@@ -2207,25 +2207,21 @@ BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-218@ca
  lendar.local
 CREATED:20261012T080038Z
-DTSTAMP:20261112T180811Z
-LAST-MODIFIED:20261112T180811Z
-SEQUENCE:7
+DTSTAMP:20261125T191232Z
+LAST-MODIFIED:20261125T191232Z
+SEQUENCE:8
 DTSTART;TZID=Europe/Paris:20261127T090000
 DTEND;TZID=Europe/Paris:20261127T120000
 SUMMARY:TU 00 - Updates Molecular Biology Tutorials
 DESCRIPTION:Module: TU 00: Immersive cultural and scientific exchanges\nSes
  sion: Updates Molecular Biology Tutorials\nLecturer: Dorine BONTE and Eric
-  MOREL\nBuilding: HM4\nRoom: 1402a/b\nValidation: validated
+  MOREL\nBuilding: Visio\nRoom: Visio\nValidation: validated
 CATEGORIES:Class
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/spreadsheets/d/1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_
  dLIDRkaOWAh0/edit
-LOCATION:HM4 1402a/b
-GEO:48.71177;2.17382
-X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS="17 avenue des Sciences, 91
- 400 Orsay, France";X-APPLE-RADIUS=100;X-TITLE="HM4 1402a/b":geo:48.71177,2
- .17382
+LOCATION:Visio Visio
 END:VEVENT
 BEGIN:VEVENT
 UID:d2hp-1piiui3z6s43zD0WA4h9B1SrfK4Dt6b_dLIDRkaOWAh0-1753418981-row-224@ca
